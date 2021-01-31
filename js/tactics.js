@@ -60,7 +60,8 @@ function create_one_tactic(descriptions, FEN, solution) {
 }
 
 function load_tactic_from_book(page = 0) {
-    var main_container = $('#exampleBodyContainer');
+    var main_container = $('#realBodyContainer');
+	main_container.empty();
     //load tactic from book
     for (var i = 0; i < 3; i++) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
@@ -96,4 +97,15 @@ function make_hover_card(block_id, solution) {
                 </div>
             </div>`)
     return card;
+}
+
+
+function change_page(next_page=true) {
+	//change page
+	var page_id = parseInt($("#pageId").text());
+	if (next_page)
+		page_id++;
+	else
+		page_id--;
+	$("#pageId").text(page_id.toString());
 }

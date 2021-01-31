@@ -7,6 +7,7 @@
 <title>chessboardjs.com » Examples</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="https://chessboardjs.com/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/css">
 <link rel="stylesheet" href="css/website2.css">
 <link rel="stylesheet"
@@ -56,7 +57,26 @@ crossorigin="anonymous">
             </ul>
         </nav>
         <div class="examples-body-9af4d" id="exampleBodyContainer">
-            <h2 class="hover-linkable"><a class="hover-link" href="https://chessboardjs.com/examples#1004"></a>Page 132</h2>
+			<div class="example-block-head d-flex justify-content-between">
+				<nav aria-label="Page navigation example">
+				  <ul class="pagination">
+					<li class="page-item">
+					  <a class="page-link" href="#" aria-label="Previous" onClick="change_page(true)">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					</li>
+					<li class="page-item"><a class="page-link" id="pageId" href="#">1</a></li>
+					<li class="page-item">
+					  <a class="page-link" href="#" aria-label="Next" onClick="change_page()">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</li>
+				  </ul>
+				</nav>
+				<h4>Page 132</h4>
+			</div>
             <div class="container-4e1ee">
                 <div id="board1" class="small-board"></div>
                 <div id="board2" class="small-board"> </div>
@@ -76,17 +96,9 @@ crossorigin="anonymous">
                     </div>
                 </div>
             </div>
-            <h4>JavaScript</h4>
-            <pre class="prettyprint"><span class="kwd">var</span><span class="pln"> board1 </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Chessboard</span><span class="pun">(</span><span class="str">'board1'</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
-  position</span><span class="pun">:</span><span class="pln"> </span><span class="str">'start'</span><span class="pun">,</span><span class="pln">
-  showNotation</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">false</span><span class="pln">
-</span><span class="pun">})</span><span class="pln">
-
-
-</span><span class="kwd">var</span><span class="pln"> board3 </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Chessboard</span><span class="pun">(</span><span class="str">'board3'</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
-  position</span><span class="pun">:</span><span class="pln"> </span><span class="str">'r1k4r/p2nb1p1/2b4p/1p1n1p2/2PP4/3Q1NB1/1P3PPP/R5K1'</span><span class="pun">,</span><span class="pln">
-  showNotation</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">false</span><span class="pln">
-</span><span class="pun">})</span></pre>
+			<div id="realBodyContainer">
+			
+			</div>
         </div>
     </div>
 </main>
