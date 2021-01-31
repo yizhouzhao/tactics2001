@@ -66,14 +66,34 @@ function load_tactic_from_book(page = 0) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
         main_container.append(row_container);
         for (var j = 0; j < 3; j++) {
-			if (9 * page + 3 * i + j > book.length){break;}
+            if (9 * page + 3 * i + j > book.length) {
+                break;
+            }
             var book_item = book[9 * page + 3 * i + j];
 
-            var block_container = $("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
-            row_container.append(block_container);
+            var block_container =  make_hover_card("tacticblock_" + board_count_num.toString(), book_item['solution']);
+			//$("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
+            
+			
+			row_container.append(block_container);
 
             create_one_tactic(book_item['description'], book_item['FEN'], book_item['solution']);
             board_count_num++;
         }
     }
+}
+
+function make_hover_card(block_id, solution) {
+    var card = $(`
+	        <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="tactic_block" id="${block_id}"> </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>${solution}</p>
+                    </div>
+                </div>
+            </div>`)
+    return card;
 }
