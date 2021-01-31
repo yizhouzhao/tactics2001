@@ -24,7 +24,7 @@ function init() {
 
     board_count_num++;
 
-	change_page(true, init=true);
+    change_page(true, init = true);
     //load_tactic_from_book();
 }
 
@@ -61,7 +61,7 @@ function create_one_tactic(descriptions, FEN, solution) {
 
 function load_tactic_from_book(page = 0) {
     var main_container = $('#realBodyContainer');
-	main_container.empty();
+    main_container.empty();
     //load tactic from book
     for (var i = 0; i < 3; i++) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
@@ -72,11 +72,11 @@ function load_tactic_from_book(page = 0) {
             }
             var book_item = book[9 * page + 3 * i + j];
 
-            var block_container =  make_hover_card("tacticblock_" + board_count_num.toString(), book_item['solution']);
-			//$("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
-            
-			
-			row_container.append(block_container);
+            var block_container = make_hover_card("tacticblock_" + board_count_num.toString(), book_item['solution'], book_item['FEN']);
+            //$("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
+
+
+            row_container.append(block_container);
 
             create_one_tactic(book_item['description'], book_item['FEN'], book_item['solution']);
             board_count_num++;
@@ -84,7 +84,7 @@ function load_tactic_from_book(page = 0) {
     }
 }
 
-function make_hover_card(block_id, solution) {
+function make_hover_card(block_id, solution, FEN = "") {
     var card = $(`
 	        <div class="flip-card">
                 <div class="flip-card-inner">
@@ -92,47 +92,89 @@ function make_hover_card(block_id, solution) {
                         <div class="tactic_block" id="${block_id}"> </div>
                     </div>
                     <div class="flip-card-back">
-                        <p>${solution}</p>
+                            <div class="btn-group" role="group" style="margin-top:10px;">
+                                <button type="button" class="btn btn-outline-primary show-answer-button">Show answer</button>
+                            </div>
+                            <div class="scrollable">
+                                <p class="tactic-answer">${solution}</p>
+                            </div>
+                            <div> <span>Copy:</span>
+                                <div class="btn-group" role="group" aria-label="Basic outlined example">
+									<button type="button" class="btn btn-outline-primary copy-fen-button">FEN</button>
+                                    <!--<button type="button" class="btn btn-outline-primary">PGN</button>-->       
+                                </div>
+                            </div>
+							<div class="copy-notification" style="visibility:hidden;">Copied successfully (analyze in <a href="https://www.chess.com/analysis">chess.com </a>)</div>
                     </div>
                 </div>
             </div>`)
+    //make scrolled anser
+    var scroll_part = card.find('.scrollable');
+    scroll_part.css("visibility", "hidden");
+
+    //set up botton
+    var show_button = card.find('.show-answer-button');
+
+    show_button.click(function () {
+        if (scroll_part.css("visibility") == "hidden") {
+            scroll_part.css("visibility", "visible");
+            show_button.text("Hide answer");
+        } else {
+            scroll_part.css("visibility", "hidden");
+            show_button.text("Show answer");
+        }
+
+    })
+
+    //set up copy
+    var copy_fen_button = card.find(".copy-fen-button");
+    var copy_notification = card.find(".copy-notification");
+
+    copy_fen_button.click(function () {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val(FEN).select();
+        document.execCommand("copy");
+        $temp.remove();
+		
+		copy_notification.css("visibility","visible");
+    })
+
     return card;
 }
 
 
-function change_page(next_page=true, init=false) {
-	//change page
-	var page_id = parseInt($("#pageId").text());
-	if (next_page)
-		page_id++;
-	else
-		page_id--;
-	
-	if (init){
-		page_id = 1;
-	}
-	
-	$("#pageId").text(page_id.toString());
-	
-	load_tactic_from_book(page_id - 1);
-	
-	//disable previous page
-	var previous_page_li = $("#previousPageLi");
-	var next_page_li = $("#nextPageLi");
-	if (page_id == 1){
-		previous_page_li.addClass("disabled");
-	}
-	else{
-		if (previous_page_li.hasClass("disabled"))
-			previous_page_li.removeClass("disabled");
-	}
-	
-	if (page_id * 9 >= book.length){
-		next_page_li.addClass("disabled");
-	}
-	else{
-		if (next_page_li.hasClass("disabled"))
-			next_page_li.removeClass("disabled");
-	}
-	
+function change_page(next_page = true, init = false) {
+    //change page
+    var page_id = parseInt($("#pageId").text());
+    if (next_page)
+        page_id++;
+    else
+        page_id--;
+
+    if (init) {
+        page_id = 1;
+    }
+
+    $("#pageId").text(page_id.toString());
+
+    load_tactic_from_book(page_id - 1);
+
+    //disable previous page
+    var previous_page_li = $("#previousPageLi");
+    var next_page_li = $("#nextPageLi");
+    if (page_id == 1) {
+        previous_page_li.addClass("disabled");
+    } else {
+        if (previous_page_li.hasClass("disabled"))
+            previous_page_li.removeClass("disabled");
+    }
+
+    if (page_id * 9 >= book.length) {
+        next_page_li.addClass("disabled");
+    } else {
+        if (next_page_li.hasClass("disabled"))
+            next_page_li.removeClass("disabled");
+    }
+
 }
