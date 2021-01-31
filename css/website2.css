@@ -24,7 +24,10 @@ body {
   margin: 0
 }
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
-  display: block
+  display: block;
+}
+header {
+	background-color: #C5494B;
 }
 h1 {
   font-size: 2em;
@@ -296,7 +299,7 @@ header {
 }
 .tld-bd9e6 {
   color: #ccc;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
 }
 header .right-05ad3 a {
