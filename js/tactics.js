@@ -24,8 +24,8 @@ function init() {
 
     board_count_num++;
 
-
-    load_tactic_from_book();
+	change_page(true, init=true);
+    //load_tactic_from_book();
 }
 
 function create_one_tactic(descriptions, FEN, solution) {
@@ -67,7 +67,7 @@ function load_tactic_from_book(page = 0) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
         main_container.append(row_container);
         for (var j = 0; j < 3; j++) {
-            if (9 * page + 3 * i + j > book.length) {
+            if (9 * page + 3 * i + j >= book.length) {
                 break;
             }
             var book_item = book[9 * page + 3 * i + j];
@@ -100,12 +100,39 @@ function make_hover_card(block_id, solution) {
 }
 
 
-function change_page(next_page=true) {
+function change_page(next_page=true, init=false) {
 	//change page
 	var page_id = parseInt($("#pageId").text());
 	if (next_page)
 		page_id++;
 	else
 		page_id--;
+	
+	if (init){
+		page_id = 1;
+	}
+	
 	$("#pageId").text(page_id.toString());
+	
+	load_tactic_from_book(page_id - 1);
+	
+	//disable previous page
+	var previous_page_li = $("#previousPageLi");
+	var next_page_li = $("#nextPageLi");
+	if (page_id == 1){
+		previous_page_li.addClass("disabled");
+	}
+	else{
+		if (previous_page_li.hasClass("disabled"))
+			previous_page_li.removeClass("disabled");
+	}
+	
+	if (page_id * 9 >= book.length){
+		next_page_li.addClass("disabled");
+	}
+	else{
+		if (next_page_li.hasClass("disabled"))
+			next_page_li.removeClass("disabled");
+	}
+	
 }
