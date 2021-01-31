@@ -26,9 +26,7 @@ body {
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
   display: block;
 }
-header {
-	background-color: #C5494B;
-}
+
 h1 {
   font-size: 2em;
   margin: .67em 0
@@ -244,11 +242,6 @@ pre.prettyprint {
 /*------------------------------------------------------------------------------
  * Header
  *----------------------------------------------------------------------------*/
-#topBar {
-  background-image: url('../img/board-background.png');
-  background-position: center top;
-  height: 35px;
-}
 #headerWrapper {
   padding: 20px 0;
 }
@@ -484,7 +477,7 @@ main {
   font-size: 16px;
   margin-bottom: 20px;
 }
-.examples-body-9af4d button {
+/*.examples-body-9af4d button {
   background: #2ba6cb;
   border-radius: 3px;
   border: 1px solid #1e728c;
@@ -498,7 +491,7 @@ main {
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
-}
+}*/
 .examples-body-9af4d label {
   display: block;
   font-weight: 600;
@@ -742,3 +735,15 @@ code.plain {
   transform: rotateY(180deg);
 }
 
+
+p.tactic-answer {
+	font-family:"Times New Roman";
+	font-size: 14px;
+}
+
+div.scrollable {
+	width: inherit;
+	margin: 10px 4px 10px;
+	height: 160px;
+    overflow: auto;
+}
