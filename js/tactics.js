@@ -17,16 +17,19 @@ function init() {
         sparePieces: true,
         showNotation: false,
     })
-
-    //init tactics
+	
+	//test: init tactics
     var des_str = "159 Panda Miao USA 1991 I g 1.? +-";
     var fes_str = 'r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1';
     create_one_tactic(des_str, fes_str, "no solution");
 
     board_count_num++;
 
+
     change_page(true, init = true);
     //load_tactic_from_book();
+	
+
 }
 
 function create_one_tactic(descriptions, FEN, solution) {
@@ -94,7 +97,7 @@ function load_tactic_from_book(page = 0) {
 				console.log($(this).attr("id"));
 				var button_id = $(this).attr("id");
 				var board_index = button_id.charAt(button_id.length - 1);
-				chessboard_list[board_index - 1].flip();
+				chessboard_list[board_index-1].flip();
             });
 			
 			board_count_num++;

@@ -9,26 +9,35 @@
 
 <body>
 <div class="donation_block">
-	<div id="smart-button-container" class="form-group">
-		<div style="text-align: center" hidden>
-			<label for="description"> </label>
-			<input type="text" name="descriptionInput" id="description" maxlength="127" value="Thanks for enjoying!">
-		</div>
-		<p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
-		<div style="text-align: center" class="form-group row d-flex align-items-center justify-content-center">
-			<label for="amount">
-			</label>
-			<input name="amountInput" type="number" id="amount" value="" >
-			<span> USD</span></div>
-		<p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
-		<div id="invoiceidDiv" style="text-align: center; display:none"><label for="invoiceid"></label>
-			<input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" >
-		</div>
-		<p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
-		<div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
-	</div>
-	<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-	<script>
+    <div id="smart-button-container" class="form-group">
+        <div style="text-align: center" hidden>
+            <label for="description"> </label>
+            <input type="text" name="descriptionInput" id="description" maxlength="127" value="Thanks for enjoying!">
+        </div>
+        <div style="text-align: center">
+            <h2>Thanks for enjoying my work! Buy me a coffee ... </h2>
+            <p id="descriptionError" style="visibility: hidden; color:red; text-align: center; display:none">Please enter a description</p>
+        </div>
+        <div class="row">
+            <div class="col-sm"> </div>
+            <div class="col-sm">
+                <label for="amount"></label>
+                <input name="amountInput" type="number" id="amount" value="5" class="form-control">
+            </div>
+            <div class="col-sm dollar-sign">
+                <p>USD</p>
+            </div>
+        </div>
+        <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+        <div id="invoiceidDiv" style="text-align: center; display:none"><label for="invoiceid"></label>
+            <input name="invoiceidInput" maxlength="127" type="text" id="invoiceid" value="" >
+            <!--可能会出问题--> 
+        </div>
+        <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center; display:none">Please enter an Invoice ID</p>
+        <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script> 
+    <script>
 	  function initPayPalButton() {
 		var description = document.querySelector('#smart-button-container #description');
 		var amount = document.querySelector('#smart-button-container #amount');
@@ -125,8 +134,7 @@
 		}).render('#paypal-button-container');
 	  }
 	  initPayPalButton();
-	  </script>
+	  </script> 
 </div>
 </body>
-
 </html>
