@@ -85,17 +85,17 @@ function load_tactic_from_book(page = 0) {
             
 			chessboard_list.push(chess_board);
 			
-			
             //set up flip board
             var flip_button = block_container.find('.flip-board-button');
 			flip_button.attr("id", "flip_button_" + board_count_num.toString());
 			
 			var id_num = board_count_num;
-            flip_button.click(function () {
-		
-				console.log(id_num);
-		
-            })
+            flip_button.click(function() {
+				console.log($(this).attr("id"));
+				var button_id = $(this).attr("id");
+				var board_index = button_id.charAt(button_id.length - 1);
+				chessboard_list[board_index - 1].flip();
+            });
 			
 			board_count_num++;
         }
