@@ -72,7 +72,7 @@ function load_tactic_from_book(page = 0) {
             }
             var book_item = book[9 * page + 3 * i + j];
 
-            var block_container = make_hover_card("tacticblock_" + board_count_num.toString(), book_item['solution'], book_item['FEN']);
+            var block_container = make_hover_card("tacticblock_" + board_count_num.toString(), book_item);
             //$("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
 
 
@@ -84,7 +84,7 @@ function load_tactic_from_book(page = 0) {
     }
 }
 
-function make_hover_card(block_id, solution, FEN = "") {
+function make_hover_card(block_id, book_item, FEN = "") {
     var card = $(`
 	        <div class="flip-card">
                 <div class="flip-card-inner">
@@ -96,12 +96,12 @@ function make_hover_card(block_id, solution, FEN = "") {
                                 <button type="button" class="btn btn-outline-primary show-answer-button">Show answer</button>
                             </div>
                             <div class="scrollable">
-                                <p class="tactic-answer">${solution}</p>
+                                <p class="tactic-answer">${book_item['solution']}</p>
                             </div>
                             <div> <span>Copy:</span>
                                 <div class="btn-group" role="group" aria-label="Basic outlined example">
 									<button type="button" class="btn btn-outline-primary copy-fen-button">FEN</button>
-                                    <!--<button type="button" class="btn btn-outline-primary">PGN</button>-->       
+                                    <button type="button" class="btn btn-outline-primary copy-pgn-button">PGN</button>      
                                 </div>
                             </div>
 							<div class="copy-notification" style="visibility:hidden;">Copied successfully (analyze in <a href="https://www.chess.com/analysis">chess.com </a>)</div>
@@ -129,11 +129,22 @@ function make_hover_card(block_id, solution, FEN = "") {
     //set up copy
     var copy_fen_button = card.find(".copy-fen-button");
     var copy_notification = card.find(".copy-notification");
+	var copy_pgn_button = card.find(".copy-pgn-button");
 
     copy_fen_button.click(function () {
         var $temp = $("<input>");
         $("body").append($temp);
-        $temp.val(FEN).select();
+        $temp.val(book_item['FEN']).select();
+        document.execCommand("copy");
+        $temp.remove();
+		
+		copy_notification.css("visibility","visible");
+    })
+	
+	copy_pgn_button.click(function () {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val(book_item['PGN']).select();
         document.execCommand("copy");
         $temp.remove();
 		
