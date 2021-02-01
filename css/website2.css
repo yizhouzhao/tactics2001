@@ -145,8 +145,9 @@ html {
     box-sizing: inherit;
 }
 body {
-    background: #333;
-    color: #333;
+    /*background: #333;
+    color: #333;*/
+	background-color: transparent;
     font-family: 'Open Sans', arial, sans-serif;
 }
 body.homepage {
@@ -754,3 +755,6 @@ div.copy-notification {
 .tactic_block .title-number {
 	font-weight: bold;
 }
+
+
+/*---------------------------donation------------------------------------*/
