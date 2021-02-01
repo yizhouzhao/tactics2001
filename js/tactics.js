@@ -1,6 +1,7 @@
 // JavaScript Document
 
 var board_count_num;
+var chessboard_list = []
 
 function init() {
     //init code
@@ -57,6 +58,8 @@ function create_one_tactic(descriptions, FEN, solution) {
         position: FEN,
         showNotation: false,
     });
+
+    return new_board;
 }
 
 function load_tactic_from_book(page = 0) {
@@ -78,8 +81,23 @@ function load_tactic_from_book(page = 0) {
 
             row_container.append(block_container);
 
-            create_one_tactic(book_item['description'], book_item['FEN'], book_item['solution']);
-            board_count_num++;
+            var chess_board = create_one_tactic(book_item['description'], book_item['FEN'], book_item['solution']);
+            
+			chessboard_list.push(chess_board);
+			
+			
+            //set up flip board
+            var flip_button = block_container.find('.flip-board-button');
+			flip_button.attr("id", "flip_button_" + board_count_num.toString());
+			
+			var id_num = board_count_num;
+            flip_button.click(function () {
+		
+				console.log(id_num);
+		
+            })
+			
+			board_count_num++;
         }
     }
 }
@@ -93,7 +111,8 @@ function make_hover_card(block_id, book_item, FEN = "") {
                     </div>
                     <div class="flip-card-back">
                             <div class="btn-group" role="group" style="margin-top:10px;">
-                                <button type="button" class="btn btn-outline-primary show-answer-button">Show answer</button>
+                                <button type="button" class="btn btn-outline-primary show-answer-button" style="font-size:12px">Show answer</button>
+								<button type="button" class="btn btn-outline-primary flip-board-button" style="font-size:12px">Flip board</button>
                             </div>
                             <div class="scrollable">
                                 <p class="tactic-answer">${book_item['solution']}</p>
@@ -112,7 +131,7 @@ function make_hover_card(block_id, book_item, FEN = "") {
     var scroll_part = card.find('.scrollable');
     scroll_part.css("visibility", "hidden");
 
-    //set up botton
+    //set up answer botton
     var show_button = card.find('.show-answer-button');
 
     show_button.click(function () {
@@ -126,10 +145,12 @@ function make_hover_card(block_id, book_item, FEN = "") {
 
     })
 
+    //set up flip board
+
     //set up copy
     var copy_fen_button = card.find(".copy-fen-button");
     var copy_notification = card.find(".copy-notification");
-	var copy_pgn_button = card.find(".copy-pgn-button");
+    var copy_pgn_button = card.find(".copy-pgn-button");
 
     copy_fen_button.click(function () {
         var $temp = $("<input>");
@@ -137,18 +158,18 @@ function make_hover_card(block_id, book_item, FEN = "") {
         $temp.val(book_item['FEN']).select();
         document.execCommand("copy");
         $temp.remove();
-		
-		copy_notification.css("visibility","visible");
+
+        copy_notification.css("visibility", "visible");
     })
-	
-	copy_pgn_button.click(function () {
+
+    copy_pgn_button.click(function () {
         var $temp = $("<input>");
         $("body").append($temp);
         $temp.val(book_item['PGN']).select();
         document.execCommand("copy");
         $temp.remove();
-		
-		copy_notification.css("visibility","visible");
+
+        copy_notification.css("visibility", "visible");
     })
 
     return card;
