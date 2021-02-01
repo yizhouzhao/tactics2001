@@ -41,9 +41,9 @@ function create_one_tactic(descriptions, FEN, solution) {
 
     var tactic_block = $('#tacticblock_' + board_count_num.toString()); //
 
-    var block_header = $("<h5>" + info_list[0] + " " + info_list[1] + " vs " + info_list[2] + " </h5>"
-        + "<div style=\"display: flex\"><div style=\"flex-grow: 1;\"> "
-        + info_list[3] + " " + info_list[4] + "</div>" + "<div>" + info_list[5] + " " + info_list[6] + " </div>" + "</div>");
+    var block_header = $("<h5 class=\"title-number\">" + info_list[0] + "</h5><h5>" + info_list[1] + " vs " + info_list[2] + " </h5>"
+        + "<div style=\"display: flex\"><div style=\"flex-grow: 1;\"> <h5>"
+        + info_list[3] + " " + info_list[4] + "</h5></div>" + "<div><h5>" + info_list[5] + " " + info_list[6] + "</h5></div>" + "</div>");
     var block_main = $("<div id=\"" + new_board_id + "\" class=\"small-board\">");
     var block_footer = $("<div style=\"display: flex\"><div style=\"flex-grow: 1;\">"
         + info_list[7] + "</div>" + "<div>" + info_list[8] + "</div>" + "</div>");
@@ -104,7 +104,7 @@ function make_hover_card(block_id, book_item, FEN = "") {
                                     <button type="button" class="btn btn-outline-primary copy-pgn-button">PGN</button>      
                                 </div>
                             </div>
-							<div class="copy-notification" style="visibility:hidden;">Copied successfully (analyze in <a href="https://www.chess.com/analysis">chess.com </a>)</div>
+							<div class="copy-notification" style="visibility:hidden;"><p>Copied successfully </br> (analyze in <a href="https://www.chess.com/analysis" target="_blank">chess.com </a>)</p></div>
                     </div>
                 </div>
             </div>`)

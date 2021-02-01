@@ -750,3 +750,7 @@ div.copy-notification {
     font-family: "serif";
     font-size: 10px;
 }
+
+.tactic_block .title-number {
+	font-weight: bold;
+}

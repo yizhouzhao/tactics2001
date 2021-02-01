@@ -1,4 +1,52 @@
 no,player1,player2,place,year,class,strategy,move,result,piece,part,FEN,PGN
+427,SCHIMID,HOCHENBERGER,BRD,1965,I,g,1.?,1-0,B,C,1qr2rk1/1p1b1ppp/pBnbp3/P5P1/1n2BP1P/1NN2Q2/1PP5/1K1R2R1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""1qr2rk1/1p1b1ppp/pBnbp3/P5P1/1n2BP1P/1NN2Q2/1PP5/1K1R2R1 w - - 0 1""]
+
+1. Bxh7+ Kxh7 2. Ne4 +- (2. Ne4 Be7 3. Nf6+ gxf6 4. Qh5+ Kg8 5. gxf6#) (2. Ne4
+Nd5 3. Rxd5!) (2. Qh5+ Kg8 3. Ne4 Rfd8 4. g6!!) *"
+428,LUKIN,T.CIORGADZE,SSSR,1967,I,d,1.?,1-0,B,C,1k1qbb1r/1p3p1p/p3pP1p/3pN3/3P4/2RB2P1/PP3P1P/2Q3K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""1k1qbb1r/1p3p1p/p3pP1p/3pN3/3P4/2RB2P1/PP3P1P/2Q3K1 w - - 0 1""]
+
+1. Bxa6! bxa6 2. Rb3+ Ka8 (2... Ka7 3. Nc6+ +-) 3. Nxf7! Bxf7 (3... Qd7 4. Nxh8
++-) 4. Qc6+ +- *"
+429,SAVOSIN,KUZNECOV,SSSR,1975,I,h,1.?,1-0,B,C,r1b1r1k1/1p1n1p2/p1nBp1p1/q2pP1Np/P7/R2B3Q/2P2PPP/5RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r1b1r1k1/1p1n1p2/p1nBp1p1/q2pP1Np/P7/R2B3Q/2P2PPP/5RK1 w - - 0 1""]
+
+1. Nxf7! Kxf7 2. Bxg6+! Kxg6 3. Qg3+ Kh7 (3... Kh6 4. Qf4+ +-) 4. Qg5! Ndxe5 5.
+Qxh5+ Kg7 6. Rg3+ Kf6 7. Qg5+ Kf7 8. Qg7# 1-0"
+430,TRINGOV,HURME,Malta(ol),1980,I,g,1...?,0-1,B,C,4r1rk/pb2pqbp/1p1p4/5p2/2P2n2/1N2BP2/PPQ3PP/1B1RR2K b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""4r1rk/pb2pqbp/1p1p4/5p2/2P2n2/1N2BP2/PPQ3PP/1B1RR2K b - - 0 1""]
+
+1... Nxg2! 2. Qxg2 (2. Kxg2 Qh5 3. Nd2 (3. Qxf5 Bxf3+ 4. Qxf3 Bf6+ -+) 3... Bc3+
+-+) 2... Qh5 3. Rf1 Be5 4. Qe2 Bxh2! -+ *"
 441,LISICYN,RAGOZIN,SSSR(ch),1934,I,g,1.?,1-0,B,C,r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
