@@ -17,8 +17,8 @@ function init() {
         sparePieces: true,
         showNotation: false,
     })
-	
-	//test: init tactics
+
+    //test: init tactics
     var des_str = "159 Panda Miao USA 1991 I g 1.? +-";
     var fes_str = 'r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1';
     //create_one_tactic(des_str, fes_str, "no solution");
@@ -28,10 +28,10 @@ function init() {
 
     change_page(true, init = true);
     //load_tactic_from_book();
-	
-	//console.log(board_count_num);
-	//console.log(chessboard_list.length);
-	
+
+    //console.log(board_count_num);
+    //console.log(chessboard_list.length);
+
 }
 
 function create_one_tactic(descriptions, FEN, solution) {
@@ -69,12 +69,14 @@ function create_one_tactic(descriptions, FEN, solution) {
 
 function load_tactic_from_book(page = 0) {
     var main_container = $('#realBodyContainer');
-	
+
     //change page 
-	main_container.empty();
-	board_count_num = 1;
-	while (chessboard_list.length) { chessboard_list.pop(); }
-	
+    main_container.empty();
+    board_count_num = 1;
+    while (chessboard_list.length) {
+        chessboard_list.pop();
+    }
+
     //load tactic from book
     for (var i = 0; i < 3; i++) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
@@ -84,8 +86,8 @@ function load_tactic_from_book(page = 0) {
                 break;
             }
             var book_item = book[9 * page + 3 * i + j];
-			
-			//console.log("tacticblock_" + board_count_num.toString());
+
+            //console.log("tacticblock_" + board_count_num.toString());
 
             var block_container = make_hover_card("tacticblock_" + board_count_num.toString(), book_item);
             //$("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
@@ -94,27 +96,28 @@ function load_tactic_from_book(page = 0) {
             row_container.append(block_container);
 
             var chess_board = create_one_tactic(book_item['description'], book_item['FEN'], book_item['solution']);
-            
-			chessboard_list.push(chess_board);
-			
+
+            chessboard_list.push(chess_board);
+
             //set up flip board
             var flip_button = block_container.find('.flip-board-button');
-			flip_button.attr("id", "flip_button_" + board_count_num.toString());
-			
-			var id_num = board_count_num;
-            flip_button.click(function() {
-				console.log($(this).attr("id"));
-				var button_id = $(this).attr("id");
-				var board_index = button_id.charAt(button_id.length - 1);
-				chessboard_list[board_index-1].flip();
+            flip_button.attr("id", "flip_button_" + board_count_num.toString());
+
+            var id_num = board_count_num;
+            flip_button.click(function () {
+                console.log($(this).attr("id"));
+                var button_id = $(this).attr("id");
+                var board_index = button_id.charAt(button_id.length - 1);
+                chessboard_list[board_index - 1].flip();
             });
-			
-			board_count_num++;
+
+            board_count_num++;
         }
     }
 }
 
 function make_hover_card(block_id, book_item, FEN = "") {
+    //set card
     var card = $(`
 	        <div class="flip-card">
                 <div class="flip-card-inner">
@@ -139,6 +142,26 @@ function make_hover_card(block_id, book_item, FEN = "") {
                     </div>
                 </div>
             </div>`)
+
+    // set fade effect
+    /*card.hover(function () {
+        var fade_object = $(this).find(".tactic_block");
+		$(this).removeClass("block-lock");
+        setTimeout(function () {
+			
+            console.log(fade_object.attr('class'));
+            if (!$(this).hasClass("block-lock")) {
+                fade_object.css("display", "none");
+            }
+        }, 1000);
+    }, function () {
+        var fade_object = $(this).find(".tactic_block");
+        console.log(fade_object.attr('class'));
+        fade_object.css("display", "block");
+        $(this).addClass("block-lock");
+    })*/
+
+
     //make scrolled anser
     var scroll_part = card.find('.scrollable');
     scroll_part.css("visibility", "hidden");
