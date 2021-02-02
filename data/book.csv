@@ -122,3 +122,38 @@ Ng8 9. Qxg7+ Qxg7 10. Rxf7# 1-0"
 1. Nd5 {wrong answer 1...Ne5} 1... exd5 2. Bxg7! (2. exd5 g6 3. Qh6 f6 4. Bxg6!
 hxg6) 2... Qe8 (2... Kxg7 3. Qh6+) (2... f5 3. gxf6 +-) (2... f6 3. g6 +-) 3.
 Bf6 +- *"
+446,BIELCZYK,SLABEK,Katowice,1992-54/97,I,c,1.?,1-0,B,C,rnb4r/1p2k1pp/1p3p2/4N3/2B5/b3B3/P4PPP/K2R3R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""rnb4r/1p2k1pp/1p3p2/4N3/2B5/b3B3/P4PPP/K2R3R w - - 0 1""]
+
+1. Bc5+! Bxc5 2. Ng6+! hxg6 3. Rhe1+ Be6 4. Rxe6+ +- *"
+447,POUTIANEN,SZABO,Budapest,1975,I,b,1...?,0-1,B,C,4rr1k/2q4p/pp3p2/8/P2Nb1n1/1QN4P/1P4P1/R5BK b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""0-1""]
+[SetUp ""1""]
+[FEN ""4rr1k/2q4p/pp3p2/8/P2Nb1n1/1QN4P/1P4P1/R5BK b - - 0 1""]
+
+1... Bxg2+! 2. Kxg2 Rg8! 3. Kh1 (3. hxg4 Rxg4+ 4. Kf1 Qg3 -+) 3... Qh2+ 4. Bxh2
+Nf2# 0-1"
+448,TAL,N.N,Berlin,1974,I,j,1.?,1-0,B,C,r1b2rk1/1p2qppp/p3p3/2n5/3N4/3B1R2/PPP1Q1PP/R5K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r1b2rk1/1p2qppp/p3p3/2n5/3N4/3B1R2/PPP1Q1PP/R5K1 w - - 0 1""]
+
+1. Bxh7+! Kxh7 2. Rh3+ Kg8 3. Nf5 (3. Qh5 f6 -+) 3... Qg5 4. Qh5! Qxh5 (4... f6
+5. Ne7#) 5. Ne7+ Kh7 6. Rxh5# 1-0"
