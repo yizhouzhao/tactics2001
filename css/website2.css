@@ -145,8 +145,8 @@ html {
     box-sizing: inherit;
 }
 body {
-    background: #333;
-    color: #333;
+    background: #713134;
+    color: #212121;
 	/*background-color: transparent;*/
     font-family: 'Open Sans', arial, sans-serif;
 }
@@ -314,8 +314,8 @@ header .right-05ad3 a:hover {
  * Footer
  *----------------------------------------------------------------------------*/
 footer {
-    background: #333;
-    color: #999;
+    background: #713134;
+    color: #713134;
     font-size: 14px;
     padding: 30px 0;
 }
@@ -435,7 +435,7 @@ main {
     text-transform: none;
 }
 .example-nav-0e953 h4.active {
-    background: #9C373A;
+    background: #713134;
     border-top: 1px solid #6C373A;
     border-right: 1px solid #6C373A;
     border-left: 1px solid #6C373A;
@@ -694,6 +694,11 @@ code.plain {
     text-decoration-color: #d94d3a;
 }
 /*---------------------------------------------------------diy------------------------------------*/
+
+footer p{
+	color: #F1F1F1
+}
+/*-----------------chess------*/
 .tactic_block {
     display: inline-block;
     margin: 10px;

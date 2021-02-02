@@ -21,7 +21,7 @@ function init() {
 	//test: init tactics
     var des_str = "159 Panda Miao USA 1991 I g 1.? +-";
     var fes_str = 'r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1';
-    create_one_tactic(des_str, fes_str, "no solution");
+    //create_one_tactic(des_str, fes_str, "no solution");
 
     board_count_num++;
 
@@ -29,7 +29,9 @@ function init() {
     change_page(true, init = true);
     //load_tactic_from_book();
 	
-
+	//console.log(board_count_num);
+	//console.log(chessboard_list.length);
+	
 }
 
 function create_one_tactic(descriptions, FEN, solution) {
@@ -67,7 +69,12 @@ function create_one_tactic(descriptions, FEN, solution) {
 
 function load_tactic_from_book(page = 0) {
     var main_container = $('#realBodyContainer');
-    main_container.empty();
+	
+    //change page 
+	main_container.empty();
+	board_count_num = 1;
+	while (chessboard_list.length) { chessboard_list.pop(); }
+	
     //load tactic from book
     for (var i = 0; i < 3; i++) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
@@ -77,6 +84,8 @@ function load_tactic_from_book(page = 0) {
                 break;
             }
             var book_item = book[9 * page + 3 * i + j];
+			
+			//console.log("tacticblock_" + board_count_num.toString());
 
             var block_container = make_hover_card("tacticblock_" + board_count_num.toString(), book_item);
             //$("<div id=\"tacticblock_" + board_count_num.toString() + "\"></div>").addClass("tactic_block");
