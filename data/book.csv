@@ -157,3 +157,105 @@ Nf2# 0-1"
 
 1. Bxh7+! Kxh7 2. Rh3+ Kg8 3. Nf5 (3. Qh5 f6 -+) 3... Qg5 4. Qh5! Qxh5 (4... f6
 5. Ne7#) 5. Ne7+ Kh7 6. Rxh5# 1-0"
+449,SMYSLOV,MAGRIN,Lugano(ol),1968,III,c,1.?,1-0,B,C,5n2/3bp1r1/1r1p3k/p1p2pNp/1nP2P1P/1PN1PB1K/P5R1/6R1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""5n2/3bp1r1/1r1p3k/p1p2pNp/1nP2P1P/1PN1PB1K/P5R1/6R1 w - - 0 1""]
+
+1. Nf7+ Rxf7 2. Rg5 Ng6 3. Rxg6+ Kh7 4. R6g5 d5 5. Nxd5 Nxd5 6. Bxd5 Rf8 7.
+Rxh5+ Rh6 8. Bg8+! *"
+450,BURNS,MORPHY,London,1858,III,d,1...?,0-1,B,C,r1b1k3/ppp2Npp/4Pn2/2b5/1nBpp3/N4P2/PPP3qP/R2QKR2 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r1b1k3/ppp2Npp/4Pn2/2b5/1nBpp3/N4P2/PPP3qP/R2QKR2 b - - 0 1""]
+
+1... Bxe6! 2. Bxe6 Nd3+! 3. Qxd3 (3. cxd3 Bb4+ -+) 3... exd3 -+ *"
+451,EUWE,FLOR,Amsterdam,1932,III,g,1.?,1-0,B,C,r4rk1/1b3p1p/pq2pQp1/n5N1/P7/2RBP3/5PPP/3R2K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r4rk1/1b3p1p/pq2pQp1/n5N1/P7/2RBP3/5PPP/3R2K1 w - - 0 1""]
+
+1. Nxh7 Rfd8 (1... Kxh7 2. Bxg6+! Kg8 (2... fxg6 3. Rd7+ Kh6 4. Qh4#) 3. Bh7+
+(3. e4 Qxf2+ 4. Qxf2 +-) 3... Kxh7 4. e4 +-) 2. h4 Rd7 (2... Kxh7 3. Qxf7+ Kh8
+4. Rc7 +-) 3. h5 Kxh7 (3... Rad8 4. h6 +-) 4. Bxg6+! *"
+452,FRYDMAN,VIDMAR,Budapest,1934,III,e,1.?,1-0,B,C,2rq1rk1/3bbppp/p3pn2/1p1pN3/2nP1B2/P1NBP2Q/1P3PPP/2R2RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2rq1rk1/3bbppp/p3pn2/1p1pN3/2nP1B2/P1NBP2Q/1P3PPP/2R2RK1 w - - 0 1""]
+
+1. Nxd5! g6 (1... exd5 2. Nxd7 Qxd7 3. Bxh7+! Kh8 4. Bf5+ +-) (1... h6 2. Nxe7+
+Qxe7 3. Bxh6 gxh6 4. Qxh6 +-) 2. Nxe7+ Qxe7 3. Bxc4 Rxc4 4. Rxc4 bxc4 5. Bg5 +-
+*"
+453,ROJZMAN,KOC,SSSR,1950,III,f,1.?,1-0,B,C,r1b1Rnk1/6pp/p4q2/1pp2P2/3r4/2NB4/PP1Q2PP/4R1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r1b1Rnk1/6pp/p4q2/1pp2P2/3r4/2NB4/PP1Q2PP/4R1K1 w - - 0 1""]
+
+1. Nd5!! (1. Ne4 Qc6 2. Qg5 Rxd3 3. f6 g6) 1... Rxd5 (1... Qd6 2. Ne7+ Kf7 3.
+Nxc8 +-) 2. Bc4! Be6 3. R1xe6 Qxe6 4. Bxd5 Rxe8 5. Bxe6+ Nxe6 6. fxe6 Rxe6 7.
+Qd5 +- *"
+454,FISHER,RESHEVSKY,USA(ch),1958,III,h,1.?,1-0,B,C,r1bqnrk1/pp1pppbp/6p1/n3P3/3N4/1BN1B3/PPP2PPP/R2QK2R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r1bqnrk1/pp1pppbp/6p1/n3P3/3N4/1BN1B3/PPP2PPP/R2QK2R w - - 0 1""]
+
+1. Bxf7+! Kxf7 (1... Rxf7 2. Ne6 +-) 2. Ne6 dxe6 (2... Kxe6 3. Qd5+ Kf5 4. g4+
+Kxg4 5. Rg1+ Kh4 6. Qe4+ +-) 3. Qxd8 +- *"
+455,JIMENEZ,GLIGORIC,Palma-de-Mallorca,1967-4/315,III,e,1...?,0-1,B,C,3qr1k1/1pp4p/p1p2Pp1/3r1b2/1P2nP2/NQ6/P1P3PP/R1B1R1K1 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""3qr1k1/1pp4p/p1p2Pp1/3r1b2/1P2nP2/NQ6/P1P3PP/R1B1R1K1 b - - 0 1""]
+
+1... Nc5! 2. Rxe8+ (2. Qg3 Rxe1+ 3. Qxe1 Rd1) 2... Qxe8 3. Qf3 (3. Qe3 Rd1+ 4.
+Kf2 Ne4+ -+) (3. Qc4 Bd3! (3... Qe1+!? 4. Qf1 Qxb4)) (3. Qc3 Rd1+ 4. Kf2 Ne4+
+-+) 3... Bg4! *"
+469,ALEHIN,TARTAKOWER,Kecskemet,1927,III,e,1.?,1-0,B,C,rn1qr1k1/p3bppp/bp3n2/2p2N2/2Q5/3BB1N1/PPP2PPP/2KR3R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""rn1qr1k1/p3bppp/bp3n2/2p2N2/2Q5/3BB1N1/PPP2PPP/2KR3R w - - 0 1""]
+
+1. Nh6+! gxh6 2. Bxh7+! Nxh7 (2... Kxh7 3. Qxf7+ +-) (2... Kg7 3. Nf5+ +-) (2...
+Kh8 3. Qxf7 Nbd7 4. Nf5! (4. Bxh6!? Bf8 5. Bg5) (4. Nh5!? Nxh5 5. Bf5) 4... Bf8
+5. Nh4 Bg7 6. Bf5 Bb7 7. Ng6+ Kh7 8. Ne7+ Kh8 9. Qg8+! Rxg8 10. Ng6+ Kh7 11.
+Ne5+ Kh8 12. Nf7#) 3. Qg4+ Kh8 4. Rxd8 Rxd8 5. Qe4! Nc6 6. Qxc6 Bf8 7. Nf5 Bc4
+8. Bxh6 Bd5 9. Qc7 Rac8 10. Qf4 Rc6 11. Bxf8 Rxf8 12. Qe5+ Nf6 13. Nd6! *"
