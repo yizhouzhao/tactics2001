@@ -705,9 +705,14 @@ footer p{
     width: 200px;
 }
 .flip-card:hover .tactic_block {
+	-webkit-transition: all 0.6s ease-in-out 0s;
+	  -moz-transition: all 0.6s ease-in-out 0s;
+	  -ms-transition: all 0.6s ease-in-out 0s;
+	  transition: all 0.6s ease-in-out 0s;
+	visibility:hidden;
     opacity: 0;
-	transition: opacity 1s;
-	display:none;
+	/*transition: opacity 1s;
+	visibility:hidden;*/
     /*opacity: 0.1;*/
 }
 .flip-card {

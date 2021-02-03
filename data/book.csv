@@ -244,6 +244,66 @@ Kxg4 5. Rg1+ Kh4 6. Qe4+ +-) 3. Qxd8 +- *"
 1... Nc5! 2. Rxe8+ (2. Qg3 Rxe1+ 3. Qxe1 Rd1) 2... Qxe8 3. Qf3 (3. Qe3 Rd1+ 4.
 Kf2 Ne4+ -+) (3. Qc4 Bd3! (3... Qe1+!? 4. Qf1 Qxb4)) (3. Qc3 Rd1+ 4. Kf2 Ne4+
 -+) 3... Bg4! *"
+456,PUSCHMANN,LENGYEL,Magyarorszag,1971,III,d,1.?,1-0,B,C,2b2r1k/ppq3pp/3b3r/n3NpN1/Q2PpP1B/2P1R3/PP5P/4R1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2b2r1k/ppq3pp/3b3r/n3NpN1/Q2PpP1B/2P1R3/PP5P/4R1K1 w - - 0 1""]
+
+1. Ngf7+! Rxf7 (1... Kg8 2. Nxh6+ gxh6 3. Rg3+ Kh8 4. Qe8! +-) 2. Bd8! Rf8 3.
+Bxc7 Bxc7 4. Nf7+! Kg8 5. Nxh6+ +- *"
+457,MARSZINJAK,DOBOSZ,Zabrze,1973,III,d,1...?,0-1,B,C,r3r1k1/p2q1ppp/2p5/2bp4/5Pn1/1PQ5/PBP3PP/RN3R1K b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r3r1k1/p2q1ppp/2p5/2bp4/5Pn1/1PQ5/PBP3PP/RN3R1K b - - 0 1""]
+
+1... Nf2+! 2. Rxf2 (2. Kg1 Ne4+ -+) 2... Bd4!! *"
+458,BALASOV,STEAN,Teesside,1974,III,h,1...?,0-1,B,C,2r5/2q4k/1p4pb/pP1p3p/P2Pp1nP/BQN1Pb1R/3K1P2/5B2 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2r5/2q4k/1p4pb/pP1p3p/P2Pp1nP/BQN1Pb1R/3K1P2/5B2 b - - 0 1""]
+
+1... Nxe3! 2. fxe3 Bxe3+! 3. Kc2 (3. Kxe3 Qxc3+ -+) 3... Bxd4 4. Bb2 Bxc3 5.
+Bxc3 d4 -+ *"
+459,PAPLER,SAHOVIC,Jugoslavija(ch),1974,III,e,1...?,0-1,B,C,r3k2r/1bpqbppp/ppn1p3/8/3P1B2/P1PB1Q2/1P1N1PPP/R3K2R b KQkq - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r3k2r/1bpqbppp/ppn1p3/8/3P1B2/P1PB1Q2/1P1N1PPP/R3K2R b KQkq - 0 1""]
+
+1... Ne5 2. Qg3 (2. Qxb7 Nxd3+ 3. Kf1 O-O 4. Qxc7 Qb5) (2. Qe3) 2... Bh4 3. Qe3
+(3. Qxh4 Nxd3+ 4. Kf1 (4. Kd1 Nxb2+) 4... Nxf4 5. Qxf4 Qb5+) (3. Qh3 Bxg2) 3...
+Bxf2+! *"
+460,VOOREMAA,JUKSTI,SSSR,1977,III,j,1.?,1-0,B,C,r4rk1/pp4pp/2nqb3/3p4/8/2NB4/PP1Q1PPP/4RRK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r4rk1/pp4pp/2nqb3/3p4/8/2NB4/PP1Q1PPP/4RRK1 w - - 0 1""]
+
+1. Bxh7+! Kxh7 2. Ne4! Qb4 (2... Qd7 3. Ng5+ +-) 3. Qxb4 Nxb4 4. Ng5+ Kg8 5.
+Nxe6 +- *"
 469,ALEHIN,TARTAKOWER,Kecskemet,1927,III,e,1.?,1-0,B,C,rn1qr1k1/p3bppp/bp3n2/2p2N2/2Q5/3BB1N1/PPP2PPP/2KR3R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
