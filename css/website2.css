@@ -561,7 +561,7 @@ main {
     border-bottom: 0;
 }
 
----------------------------------------------------diy------------------------------------*/
+/*---------------------------------------------------diy------------------------------------*/
 
 footer p{
 	color: #F1F1F1
@@ -653,31 +653,3 @@ div.copy-notification {
 }
 
 /*---------------------------pagination-------------------------------*/
-
-.cdp {
-  position: relative;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 12px;
-}
-
-a .cdp_i{
-	font-size: 14px;
-	text-decoration: none;
-
-	transition: background 250ms;
-
-	display: inline-block;
-	text-transform: uppercase;
-	margin: 0 3px 6px;
-	height: 38px;
-	min-width: 38px;
-	border-radius: 8px;
-	border: 2px solid #333;
-	line-height: 38px;
-	padding: 0;
-	color: #333;
-	font-weight: 700;
-	letter-spacing: .03em;
-	display: none;
-}
