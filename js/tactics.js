@@ -3,6 +3,22 @@
 var board_count_num;
 var chessboard_list = []
 
+//Letter2Chesscode
+var letter2chess = {
+	"wK": "&#9812;",
+	"wQ": "&#9813;",
+	"wR": "&#9814;",
+	"wB": "&#9815;",
+	"wN": "&#9816;",
+	"wP": "&#9817;",
+	"bK": "&#9818;",
+	"bQ": "&#9819;",
+	"bR": "&#9820;",
+	"bB": "&#9821;",
+	"bN": "&#9822;",
+	"bP": "&#9823;",
+}
+
 function init() {
     //init code
     board_count_num = 0;
@@ -21,7 +37,7 @@ function init() {
     //test: init tactics
     var des_str = "159 Panda Miao USA 1991 I g 1.? +-";
     var fes_str = 'r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1';
-    //create_one_tactic(des_str, fes_str, "no solution");
+    create_one_tactic(des_str, fes_str, "no solution");
 
     board_count_num++;
 
@@ -130,7 +146,7 @@ function make_hover_card(block_id, book_item, FEN = "") {
 								<button type="button" class="btn btn-outline-primary flip-board-button" style="font-size:12px">Flip board</button>
                             </div>
                             <div class="scrollable">
-                                <p class="tactic-answer">${book_item['solution']}</p>
+                                <p class="tactic-answer">${solution_string2chess_code(book_item['solution'])}</p>
                             </div>
                             <div> <span>Copy:</span>
                                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -210,7 +226,7 @@ function make_hover_card(block_id, book_item, FEN = "") {
     return card;
 }
 
-
+//change page for loading tactics
 function change_page(next_page = true, init = false) {
     //change page
     var page_id = parseInt($("#pageId").text());
@@ -244,4 +260,42 @@ function change_page(next_page = true, init = false) {
             next_page_li.removeClass("disabled");
     }
 
+}
+
+//parse solution string into chess code
+function solution_string2chess_code(solution){
+	//solution 1. Bxh7+ Kxh7 2. Ne4 +- (2. Ne4 Be7 3. Nf6+ gxf6
+	var new_solution = ""
+	var color = "w" // or "b"
+	for(var i = 0; i < solution.length; i++){
+		var c = solution.charAt(i);
+		// it is a number
+		if (c >= '0' && c <= '9') {
+			if (i < solution.length - 1){
+				if (solution.charAt(i + 1) == "."){
+					color = "w";
+					if (i < solution.length - 2){
+						if (solution.charAt(i + 2) == "."){
+							color = "b";
+						}
+					}
+				}
+			}
+			new_solution += c;
+		}
+		//is char
+		else if(c >= "A" && c <= "Z"){
+			var piece = color + c;
+			var chess_code = letter2chess[piece];
+			new_solution += chess_code
+			if (color == "w"){
+				color = "b";
+			}
+		}
+		else{
+			new_solution += c;
+		}
+	}
+	
+	return new_solution;
 }

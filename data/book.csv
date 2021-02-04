@@ -304,6 +304,34 @@ Bxf2+! *"
 
 1. Bxh7+! Kxh7 2. Ne4! Qb4 (2... Qd7 3. Ng5+ +-) 3. Qxb4 Nxb4 4. Ng5+ Kg8 5.
 Nxe6 +- *"
+461,PALEVIC,LUZNIAK,corr.,1985,III,f,1.?,1-0,B,C,r2r3k/p5qp/2pBP3/4N1pP/KpP5/8/8/7Q w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r2r3k/p5qp/2pBP3/4N1pP/KpP5/8/8/7Q w - - 0 1""]
+
+1. Ng6+!? (1. Nf7+ Kg8 2. Be5 Qf8 3. Qf3 +-) 1... Kg8 (1... hxg6 2. Be5 Kg8 3.
+Bxg7 Kxg7 =) 2. Ne7+ Kh8 (2... Kf8 3. Qf3+ Ke8 4. Qxc6+ Kf8 5. Nf5+ +-) 3. Be5!
+Qxe5 4. Ng6+! Kg7 (4... hxg6 5. hxg6+ Qh2 (5... Kg7 6. Qh7+ Kf8 7. Qf7#) 6.
+Qxh2+ Kg7 7. Qh7+ Kf6 8. Qf7+ Ke5 9. e7 Rdc8 10. g7 Rg8 11. Kxb4 +-) 5. Nxe5 +-
+*"
+462,ZUGER,W.FIEDLER,Bad-Ragaz,1990,III,d,1.?,1-0,B,C,R1n1bb1r/1k3p2/1q1p1p1p/2pPpP1B/1pP1P2P/1P1N3K/1N4P1/Q7 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""R1n1bb1r/1k3p2/1q1p1p1p/2pPpP1B/1pP1P2P/1P1N3K/1N4P1/Q7 w - - 0 1""]
+
+1. Bxf7!! Bxf7 2. Na4 Qa7 (2... Qd8 3. Naxc5+! dxc5 4. Qa6+ Kc7 5. Qc6#) (2...
+Qc7 3. Naxc5+ +-) 3. Rxa7+ Nxa7 4. Naxc5+! dxc5 5. Qa5 Bd6 6. Nxc5+ Ka8 (6...
+Bxc5 7. Qxc5 +-) 7. Na6! +- *"
 469,ALEHIN,TARTAKOWER,Kecskemet,1927,III,e,1.?,1-0,B,C,rn1qr1k1/p3bppp/bp3n2/2p2N2/2Q5/3BB1N1/PPP2PPP/2KR3R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
