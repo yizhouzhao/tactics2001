@@ -369,3 +369,11 @@ div.copy-notification {
 }
 
 /*---------------------------pagination-------------------------------*/
+
+.page-item {
+    margin: 0 3px 6px;
+}
+
+a.bg-page {
+	color: #713134
+}
