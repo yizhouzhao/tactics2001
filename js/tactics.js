@@ -58,7 +58,7 @@ function create_one_tactic(descriptions, FEN, solution) {
     FEN: chess FEN board
     solution: solution string
     */
-    var info_list = descriptions.split(' ');
+    const info_list = descriptions.split(' ');
     var new_board_id = "tacticboard_" + board_count_num.toString();
 
     var tactic_block = $('#tacticblock_' + board_count_num.toString()); //
