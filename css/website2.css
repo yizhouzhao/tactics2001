@@ -41,10 +41,7 @@ code, kbd, pre, samp {
     font-family: monospace, monospace;
     font-size: 1em
 }
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects
-}
+
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
@@ -155,12 +152,6 @@ body.homepage {
 }
 body.homepage main {
     background: #fff;
-}
-a {
-    color: #462bcb;
-}
-a:hover {
-    text-decoration: underline;
 }
 .body-width-115f6 {
     margin: 0 auto;
@@ -569,131 +560,8 @@ main {
 .page-529b3 section:last-child {
     border-bottom: 0;
 }
-/*------------------------------------------------------------------------------
- * Downloads Page
- *----------------------------------------------------------------------------*/
-.big-version {
-    color: #000;
-    font-size: 24px;
-}
-.big-version small {
-    color: #6f6f6f;
-    font-size: 60%;
-}
-.download-link {
-    margin: 0;
-    padding: 0;
-}
-/*------------------------------------------------------------------------------
- * prettyPrint
- *----------------------------------------------------------------------------*/
-.pln {
-    color: #c5c8c6;
-}
-@media screen {
-    .str {
-        color: #b5bd68;
-    }
-    .kwd {
-        color: #b294bb;
-    }
-    .com {
-        color: #969896;
-    }
-    .typ {
-        color: #81a2be;
-    }
-    .lit {
-        color: #de935f;
-    }
-    .pun {
-        color: #c5c8c6;
-    }
-    .opn {
-        color: #c5c8c6;
-    }
-    .clo {
-        color: #c5c8c6;
-    }
-    .tag {
-        color: #cc6666;
-    }
-    .atn {
-        color: #de935f;
-    }
-    .atv {
-        color: #8abeb7;
-    }
-    .dec {
-        color: #de935f;
-    }
-    .var {
-        color: #cc6666;
-    }
-    .fun {
-        color: #81a2be;
-    }
-}
-@media print, projection {
-    .str {
-        color: #060;
-    }
-    .kwd {
-        color: #006;
-        font-weight: bold;
-    }
-    .com {
-        color: #600;
-        font-style: italic;
-    }
-    .typ {
-        color: #404;
-        font-weight: bold;
-    }
-    .lit {
-        color: #044;
-    }
-    .pun, .opn, .clo {
-        color: #440;
-    }
-    .tag {
-        color: #006;
-        font-weight: bold;
-    }
-    .atn {
-        color: #404;
-    }
-    .atv {
-        color: #060;
-    }
-}
-pre.prettyprint {
-    background: #1d1f21;
-    font-family: 'Roboto Mono', Consolas, monospace;
-    font-size: 14px;
-    line-height: 1.5;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-ol.linenums {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-code {
-    font-family: 'Roboto Mono', Consolas, monospace;
-    font-size: 14px;
-}
-code.string {
-    color: blue;
-}
-code.keyword {
-    color: #0066cc;
-}
-code.plain {
-    color: #d94d3a;
-    text-decoration-color: #d94d3a;
-}
-/*---------------------------------------------------------diy------------------------------------*/
+
+---------------------------------------------------diy------------------------------------*/
 
 footer p{
 	color: #F1F1F1
@@ -782,4 +650,34 @@ div.copy-notification {
 
 .donation_block h2, .donation_block p{
 	color:#F1F1F1;
+}
+
+/*---------------------------pagination-------------------------------*/
+
+.cdp {
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+a .cdp_i{
+	font-size: 14px;
+	text-decoration: none;
+
+	transition: background 250ms;
+
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 3px 6px;
+	height: 38px;
+	min-width: 38px;
+	border-radius: 8px;
+	border: 2px solid #333;
+	line-height: 38px;
+	padding: 0;
+	color: #333;
+	font-weight: 700;
+	letter-spacing: .03em;
+	display: none;
 }
