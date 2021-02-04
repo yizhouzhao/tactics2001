@@ -332,6 +332,32 @@ Qxh2+ Kg7 7. Qh7+ Kf6 8. Qf7+ Ke5 9. e7 Rdc8 10. g7 Rg8 11. Kxb4 +-) 5. Nxe5 +-
 1. Bxf7!! Bxf7 2. Na4 Qa7 (2... Qd8 3. Naxc5+! dxc5 4. Qa6+ Kc7 5. Qc6#) (2...
 Qc7 3. Naxc5+ +-) 3. Rxa7+ Nxa7 4. Naxc5+! dxc5 5. Qa5 Bd6 6. Nxc5+ Ka8 (6...
 Bxc5 7. Qxc5 +-) 7. Na6! +- *"
+463,KARPOV,TOPALOV,Dos-Hermanas,1994-60/58,III,h,1.?,1-0,B,C,2b1rb2/pp3pk1/2n3pp/2pN4/4qB2/2P2Q1P/PP3PP1/3R1BK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2b1rb2/pp3pk1/2n3pp/2pN4/4qB2/2P2Q1P/PP3PP1/3R1BK1 w - - 0 1""]
+
+1. Nf6!! Kxf6 2. Be5+! Kxe5 3. Qxe4+ Kxe4 4. Re1+ Kf5 5. Rxe8 Be6 6. Rxf8 Bxa2
+7. Rc8 +- *"
+464,RUCKSCHLOSS,VL.SERGEEV,Sala,1994,III,h/c,1...?,0-1,B,C,2rr2k1/6bp/p1q1p1p1/1p3pP1/1PnPpP1P/PQ2P3/N3K3/3RB1R1 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2rr2k1/6bp/p1q1p1p1/1p3pP1/1PnPpP1P/PQ2P3/N3K3/3RB1R1 b - - 0 1""]
+
+1... Nxe3!! 2. Kxe3 (2. Qxe3 Qc4+ -+) 2... Bxd4+ 3. Rxd4 Rxd4 4. Kxd4 (4. Nc3
+Rd3+ 5. Ke2 Qd6) 4... Rd8+ (4... Qb6+ 5. Ke5 Qc7+ (5... Rc4? 6. Qd1 =) 6. Kd4
+Qa7+ 7. Ke5 Qg7+) 5. Ke3 Rd3+ 6. Qxd3 exd3 7. Rg3 (7. Kxd3 Qe4+ 8. Kc3 (8. Kd2
+Qd4+ -+) 8... Qe3+ -+) 7... Qe4+ 8. Kd2 Qe2+ -+ *"
 469,ALEHIN,TARTAKOWER,Kecskemet,1927,III,e,1.?,1-0,B,C,rn1qr1k1/p3bppp/bp3n2/2p2N2/2Q5/3BB1N1/PPP2PPP/2KR3R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
