@@ -1,150 +1,7 @@
-/*------------------------------------------------------------------------------
- * Normalize
- *----------------------------------------------------------------------------*/
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-hr, input {
-    overflow: visible
-}
-audio, canvas, progress, video {
-    display: inline-block
-}
-progress, sub, sup {
-    vertical-align: baseline
-}
-[type=checkbox], [type=radio], legend {
-    box-sizing: border-box;
-    padding: 0
-}
-html {
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
-body {
-    margin: 0
-}
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
-    display: block;
-}
-h1 {
-    font-size: 2em;
-    margin: .67em 0
-}
-figure {
-    margin: 1em 40px
-}
-hr {
-    box-sizing: content-box;
-    height: 0
-}
-code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
-
-abbr[title] {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
-}
-b, strong {
-    font-weight: bolder
-}
-dfn {
-    font-style: italic
-}
-mark {
-    background-color: #ff0;
-    color: #000
-}
-small {
-    font-size: 80%
-}
-sub, sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative
-}
-sub {
-    bottom: -.25em
-}
-sup {
-    top: -.5em
-}
-audio:not([controls]) {
-    display: none;
-    height: 0
-}
-img {
-    border-style: none
-}
-svg:not(:root) {
-    overflow: hidden
-}
-button, input, optgroup, select, textarea {
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0
-}
-button, select {
-    text-transform: none
-}
-[type=reset], [type=submit], button, html [type=button] {
-    -webkit-appearance: button
-}
-[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
-    border-style: none;
-    padding: 0
-}
-[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
-    outline: ButtonText dotted 1px
-}
-fieldset {
-    padding: .35em .75em .625em
-}
-legend {
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    white-space: normal
-}
-textarea {
-    overflow: auto
-}
-[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
-    height: auto
-}
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
-}
-[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit
-}
-summary {
-    display: list-item
-}
-[hidden], template {
-    display: none
-}
-/*------------------------------------------------------------------------------
- * General
- *----------------------------------------------------------------------------*/
-html {
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
 body {
     background: #713134;
     color: #212121;
-	/*background-color: transparent;*/
+    /*background-color: transparent;*/
     font-family: 'Open Sans', arial, sans-serif;
 }
 body.homepage {
@@ -167,31 +24,6 @@ body.homepage main {
 .clearfix {
     clear: both;
 }
-.homepage-nav-b9ecc {
-    border-bottom: 1px solid #efefef;
-}
-.homepage-section-88e4a {
-    display: flex;
-}
-.col-11bcf button, .blue-button {
-    background: #2ba6cb;
-    border-radius: 3px;
-    border: 1px solid #1e728c;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 15px 5px 0 0;
-    outline: none;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-}
-.blue-button.large {
-    font-size: 18px;
-    padding: 15px 30px;
-}
 h2 {
     font-size: 26px;
     font-weight: 300;
@@ -205,30 +37,6 @@ h4 {
 h5 {
     font-size: 12px;
     margin: 2px;
-}
-pre.prettyprint {
-    margin: 8px 0 30px 0;
-}
-.hover-linkable .hover-link {
-    display: none;
-}
-.hover-linkable:hover .hover-link {
-    background-image: url('../img/link.svg');
-    background-repeat: no-repeat;
-    background-size: 16px;
-    display: block;
-    float: left;
-    height: 16px;
-    line-height: 1;
-    margin-left: -16px;
-    margin-top: 14px;
-    padding-right: 16px;
-    width: 16px;
-}
-.hover-linkable:hover .hover-link.docs {
-    margin-top: 8px;
-    margin-left: -18px;
-    padding-right: 18px;
 }
 /*------------------------------------------------------------------------------
  * Header
@@ -560,11 +368,9 @@ main {
 .page-529b3 section:last-child {
     border-bottom: 0;
 }
-
----------------------------------------------------diy------------------------------------*/
-
-footer p{
-	color: #F1F1F1
+/*---------------------------------------------------diy------------------------------------*/ 
+footer p {
+    color: #F1F1F1
 }
 /*-----------------chess------*/
 .tactic_block {
@@ -573,13 +379,13 @@ footer p{
     width: 200px;
 }
 .flip-card:hover .tactic_block {
-	-webkit-transition: all 0.6s ease-in-out 0s;
-	  -moz-transition: all 0.6s ease-in-out 0s;
-	  -ms-transition: all 0.6s ease-in-out 0s;
-	  transition: all 0.6s ease-in-out 0s;
-	visibility:hidden;
+    -webkit-transition: all 0.6s ease-in-out 0s;
+    -moz-transition: all 0.6s ease-in-out 0s;
+    -ms-transition: all 0.6s ease-in-out 0s;
+    transition: all 0.6s ease-in-out 0s;
+    visibility: hidden;
     opacity: 0;
-	/*transition: opacity 1s;
+    /*transition: opacity 1s;
 	visibility:hidden;*/
     /*opacity: 0.1;*/
 }
@@ -610,12 +416,10 @@ footer p{
     transform: rotateY(180deg);
     display: none;
 }
-
 .flip-card:hover .flip-card-back {
     display: block;
     /*opacity: 0.1;*/
 }
-
 p.tactic-answer {
     font-family: "Times New Roman";
     font-size: 14px;
@@ -631,53 +435,521 @@ div.copy-notification {
     font-family: "serif";
     font-size: 10px;
 }
-
 .tactic_block .title-number {
-	font-weight: bold;
+    font-weight: bold;
 }
-
-
 /*---------------------------donation------------------------------------*/
-
 .donation_block {
-	padding-top: 20px;
+    padding-top: 20px;
 }
-
 .donation_block .dollar-sign {
-	margin-top:30px;
+    margin-top: 30px;
 }
-
-
-.donation_block h2, .donation_block p{
-	color:#F1F1F1;
+.donation_block h2, .donation_block p {
+    color: #F1F1F1;
 }
-
 /*---------------------------pagination-------------------------------*/
-
 .cdp {
-  position: relative;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 12px;
+	 position: relative;
+	 text-align: center;
+	 padding: 20px 0;
+	 font-size: 0;
+	 z-index: 6;
+	 margin: 50px 0;
+	 animation: cdp-in 500ms ease both;
+	 animation-timeout: 200ms;
+}
+ .cdp_i {
+	 font-size: 14px;
+	 text-decoration: none;
+	 transition: background 250ms;
+	 display: inline-block;
+	 text-transform: uppercase;
+	 margin: 0 3px 6px;
+	 height: 38px;
+	 min-width: 38px;
+	 border-radius: 38px;
+	 border: 2px solid #fff;
+	 line-height: 38px;
+	 padding: 0;
+	 color: #fff;
+	 font-weight: 700;
+	 letter-spacing: 0.03em;
+	 display: none;
+}
+ .cdp_i:first-child, .cdp_i:last-child {
+	 padding: 0 16px;
+	 margin: 0 12px 6px;
+}
+ .cdp_i:last-child, .cdp_i:nth-child(2), .cdp_i:nth-last-child(2) {
+	 display: inline-block;
+}
+ .cdp_i:hover {
+	 background-color: #000;
+	 color: #fff;
+}
+ .cdp:not([actpage="1"]) .cdp_i:nth-child(1) {
+	 display: inline-block;
 }
 
-a .cdp_i{
-	font-size: 14px;
-	text-decoration: none;
-
-	transition: background 250ms;
-
-	display: inline-block;
-	text-transform: uppercase;
-	margin: 0 3px 6px;
-	height: 38px;
-	min-width: 38px;
-	border-radius: 8px;
-	border: 2px solid #333;
-	line-height: 38px;
-	padding: 0;
-	color: #333;
-	font-weight: 700;
-	letter-spacing: .03em;
-	display: none;
+.cdp[actpage="1"] .cdp_i:nth-child(-1):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
 }
+ .cdp[actpage="1"] .cdp_i:nth-child(-1):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(0):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(1):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(2) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(2) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(3):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(4):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(5):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="1"] .cdp_i:nth-child(5):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(0):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(0):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(1):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(2):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(3) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(3) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(4):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(5):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(6):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="2"] .cdp_i:nth-child(6):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(1):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(1):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(2):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(3):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(4) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(4) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(5):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(6):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(7):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="3"] .cdp_i:nth-child(7):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(2):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(2):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(3):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(4):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(5) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(5) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(6):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(7):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(8):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="4"] .cdp_i:nth-child(8):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(3):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(3):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(4):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(5):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(6) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(6) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(7):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(8):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(9):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="5"] .cdp_i:nth-child(9):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(4):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(4):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(5):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(6):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(7) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(7) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(8):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(9):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(10):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="6"] .cdp_i:nth-child(10):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(5):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(5):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(6):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(7):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(8) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(8) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(9):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(10):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(11):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="7"] .cdp_i:nth-child(11):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(6):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(6):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(7):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(8):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(9) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(9) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(10):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(11):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(12):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="8"] .cdp_i:nth-child(12):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(7):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(7):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(8):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(9):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(10) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(10) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(11):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(12):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(13):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="9"] .cdp_i:nth-child(13):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(8):not(:first-child):not(:nth-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(8):not(:first-child):not(:nth-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(9):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(10):not(:first-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(11) {
+	 background-color: #000;
+	 color: #fff;
+	 display: inline-block;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(11) + .cdp_i:last-child {
+	 display: none !important;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(12):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(13):not(:last-child) {
+	 display: inline-block;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(14):not(:last-child):not(:nth-last-child(2)) {
+	 display: inline-block;
+	 pointer-events: none;
+	 color: transparent;
+	 border-color: transparent;
+	 width: 50px;
+}
+ .cdp[actpage="10"] .cdp_i:nth-child(14):not(:last-child):not(:nth-last-child(2)):after {
+	 content: '...';
+	 color: #fff;
+	 font-size: 32px;
+	 margin-left: -6px;
+}
+ 
