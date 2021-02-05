@@ -214,7 +214,7 @@ function make_hover_card(block_id, book_item, FEN = "") {
     })
 
     copy_pgn_button.click(function () {
-        var $temp = $("<input>");
+        var $temp = $("<textarea>");
         $("body").append($temp);
         $temp.val(book_item['PGN']).select();
         document.execCommand("copy");
