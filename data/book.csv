@@ -1,4 +1,4 @@
-no,player1,player2,place,year,class,strategy,move,result,piece,part,FEN,PGN
+no,player1,player2,place,year,class,strategy,move,result,piece,part,FEN,PGN,Comment
 427,SCHIMID,HOCHENBERGER,BRD,1965,I,g,1.?,1-0,B,C,1qr2rk1/1p1b1ppp/pBnbp3/P5P1/1n2BP1P/1NN2Q2/1PP5/1K1R2R1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -10,7 +10,7 @@ no,player1,player2,place,year,class,strategy,move,result,piece,part,FEN,PGN
 [FEN ""1qr2rk1/1p1b1ppp/pBnbp3/P5P1/1n2BP1P/1NN2Q2/1PP5/1K1R2R1 w - - 0 1""]
 
 1. Bxh7+ Kxh7 2. Ne4 +- (2. Ne4 Be7 3. Nf6+ gxf6 4. Qh5+ Kg8 5. gxf6#) (2. Ne4
-Nd5 3. Rxd5!) (2. Qh5+ Kg8 3. Ne4 Rfd8 4. g6!!) *"
+Nd5 3. Rxd5!) (2. Qh5+ Kg8 3. Ne4 Rfd8 4. g6!!) *",
 428,LUKIN,T.CIORGADZE,SSSR,1967,I,d,1.?,1-0,B,C,1k1qbb1r/1p3p1p/p3pP1p/3pN3/3P4/2RB2P1/PP3P1P/2Q3K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -22,7 +22,7 @@ Nd5 3. Rxd5!) (2. Qh5+ Kg8 3. Ne4 Rfd8 4. g6!!) *"
 [FEN ""1k1qbb1r/1p3p1p/p3pP1p/3pN3/3P4/2RB2P1/PP3P1P/2Q3K1 w - - 0 1""]
 
 1. Bxa6! bxa6 2. Rb3+ Ka8 (2... Ka7 3. Nc6+ +-) 3. Nxf7! Bxf7 (3... Qd7 4. Nxh8
-+-) 4. Qc6+ +- *"
++-) 4. Qc6+ +- *",
 429,SAVOSIN,KUZNECOV,SSSR,1975,I,h,1.?,1-0,B,C,r1b1r1k1/1p1n1p2/p1nBp1p1/q2pP1Np/P7/R2B3Q/2P2PPP/5RK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -34,7 +34,7 @@ Nd5 3. Rxd5!) (2. Qh5+ Kg8 3. Ne4 Rfd8 4. g6!!) *"
 [FEN ""r1b1r1k1/1p1n1p2/p1nBp1p1/q2pP1Np/P7/R2B3Q/2P2PPP/5RK1 w - - 0 1""]
 
 1. Nxf7! Kxf7 2. Bxg6+! Kxg6 3. Qg3+ Kh7 (3... Kh6 4. Qf4+ +-) 4. Qg5! Ndxe5 5.
-Qxh5+ Kg7 6. Rg3+ Kf6 7. Qg5+ Kf7 8. Qg7# 1-0"
+Qxh5+ Kg7 6. Rg3+ Kf6 7. Qg5+ Kf7 8. Qg7# 1-0",
 430,TRINGOV,HURME,Malta(ol),1980,I,g,1...?,0-1,B,C,4r1rk/pb2pqbp/1p1p4/5p2/2P2n2/1N2BP2/PPQ3PP/1B1RR2K b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -46,7 +46,7 @@ Qxh5+ Kg7 6. Rg3+ Kf6 7. Qg5+ Kf7 8. Qg7# 1-0"
 [FEN ""4r1rk/pb2pqbp/1p1p4/5p2/2P2n2/1N2BP2/PPQ3PP/1B1RR2K b - - 0 1""]
 
 1... Nxg2! 2. Qxg2 (2. Kxg2 Qh5 3. Nd2 (3. Qxf5 Bxf3+ 4. Qxf3 Bf6+ -+) 3... Bc3+
--+) 2... Qh5 3. Rf1 Be5 4. Qe2 Bxh2! -+ *"
+-+) 2... Qh5 3. Rf1 Be5 4. Qe2 Bxh2! -+ *",
 431,EDOCS,SEMKOV,CSSR,1980,I,d,1...?,0-1,B,C,1r4k1/5pp1/qr2p2p/N3Pn2/Q7/2P1b1B1/P5PP/K2R1R2 b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -58,7 +58,7 @@ Qxh5+ Kg7 6. Rg3+ Kf6 7. Qg5+ Kf7 8. Qg7# 1-0"
 [FEN ""1r4k1/5pp1/qr2p2p/N3Pn2/Q7/2P1b1B1/P5PP/K2R1R2 b - - 0 1""]
 
 1... Nd4!! 2. cxd4 (2. Rb1 Qxa5 +-) 2... Rb4 3. Qd7 Bxd4+ 4. Rxd4 Qxf1+ 5. Rd1
-Rb1+! +- *"
+Rb1+! +- *",
 441,LISICYN,RAGOZIN,SSSR(ch),1934,I,g,1.?,1-0,B,C,r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -70,7 +70,7 @@ Rb1+! +- *"
 [FEN ""r2qr1k1/1pnb1pp1/p1n1p2p/8/P2P3P/B2B1NP1/6P1/R2Q1RK1 w - - 0 1""]
 
 1. Bh7+! Kxh7 2. Ng5+! Kg8 3. Nxf7 Qb8 4. Nxh6+ gxh6 5. Qg4+ Kh8 6. Rf7! Rg8 7.
-Qh5 *"
+Qh5 *",
 442,HOLMOV,PANOV,Vilnius,1953,I,d,1.?,1-0,B,C,3q2k1/r2b2pp/3Pp3/1p1nPp2/1RpN4/2P2Q1P/2B2PP1/6K1 w - - 0 0,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -83,7 +83,7 @@ Qh5 *"
 
 1. Nxf5 {this is wrong from engine. 1...g6! makes a draw} 1... Nxb4 2. Ne7+ Kh8
 3. Bxh7 Qa5 4. Qf8+ Kxh7 5. Qg8+ Kh6 6. Qh8+ Kg5 7. Qxg7+ Kf4 8. Qg4+ Kxe5 9.
-Qd4# 1-0"
+Qd4# 1-0",
 443,VOSKANIAN,HODOS,SSSR,1964,I,h,1.?,1-0,B,C,r1b2rk1/1pqp1ppp/p1n1pn2/5N2/8/2PBB3/P1P2PPP/R2QR1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -95,7 +95,7 @@ Qd4# 1-0"
 [FEN ""r1b2rk1/1pqp1ppp/p1n1pn2/5N2/8/2PBB3/P1P2PPP/R2QR1K1 w - - 0 1""]
 
 1. Nxg7 Kxg7 2. Bh6+! Kxh6 (2... Kg8 3. Qf3! +-) 3. Qd2+ Kh5 (3... Kg7 4. Qg5+
-Kh8 5. Qxf6+ Kg8 6. Re4! +-) 4. Re3 *"
+Kh8 5. Qxf6+ Kg8 6. Re4! +-) 4. Re3 *",
 444,RESHEVSKY,MATSUMOTO,Siegen(ol),1970,I,c,1.?,1-0,B,C,r2q1rk1/1p1bbppp/p1n1p3/2p1P2Q/4N3/6P1/PPPB1PBP/3RR1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -108,7 +108,7 @@ Kh8 5. Qxf6+ Kg8 6. Re4! +-) 4. Re3 *"
 
 1. Nf6+! gxf6 (1... Bxf6 2. exf6 g6 (2... Qxf6 3. Bg5 +-) 3. Qh6 Qxf6 4. Bg5 +-)
 2. exf6 Bxf6 3. Be4 Re8 4. Qxh7+ Kf8 5. Bg6! Bg7 6. Bh6 Qf6 7. Rxd7 Ne7 8. Qh8+
-Ng8 9. Qxg7+ Qxg7 10. Rxf7# 1-0"
+Ng8 9. Qxg7+ Qxg7 10. Rxf7# 1-0",
 445,SZALANCZY,GAVRIKOV,Debrecen,1988,I,c,1.?,1-0,B,C,r1bq1rk1/3nbppp/p2pp3/6PQ/1p1BP2P/2NB4/PPP2P2/2KR3R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -121,7 +121,7 @@ Ng8 9. Qxg7+ Qxg7 10. Rxf7# 1-0"
 
 1. Nd5 {wrong answer 1...Ne5} 1... exd5 2. Bxg7! (2. exd5 g6 3. Qh6 f6 4. Bxg6!
 hxg6) 2... Qe8 (2... Kxg7 3. Qh6+) (2... f5 3. gxf6 +-) (2... f6 3. g6 +-) 3.
-Bf6 +- *"
+Bf6 +- *",
 446,BIELCZYK,SLABEK,Katowice,1992-54/97,I,c,1.?,1-0,B,C,rnb4r/1p2k1pp/1p3p2/4N3/2B5/b3B3/P4PPP/K2R3R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -132,7 +132,7 @@ Bf6 +- *"
 [SetUp ""1""]
 [FEN ""rnb4r/1p2k1pp/1p3p2/4N3/2B5/b3B3/P4PPP/K2R3R w - - 0 1""]
 
-1. Bc5+! Bxc5 2. Ng6+! hxg6 3. Rhe1+ Be6 4. Rxe6+ +- *"
+1. Bc5+! Bxc5 2. Ng6+! hxg6 3. Rhe1+ Be6 4. Rxe6+ +- *",
 447,POUTIANEN,SZABO,Budapest,1975,I,b,1...?,0-1,B,C,4rr1k/2q4p/pp3p2/8/P2Nb1n1/1QN4P/1P4P1/R5BK b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -144,7 +144,7 @@ Bf6 +- *"
 [FEN ""4rr1k/2q4p/pp3p2/8/P2Nb1n1/1QN4P/1P4P1/R5BK b - - 0 1""]
 
 1... Bxg2+! 2. Kxg2 Rg8! 3. Kh1 (3. hxg4 Rxg4+ 4. Kf1 Qg3 -+) 3... Qh2+ 4. Bxh2
-Nf2# 0-1"
+Nf2# 0-1",
 448,TAL,N.N,Berlin,1974,I,j,1.?,1-0,B,C,r1b2rk1/1p2qppp/p3p3/2n5/3N4/3B1R2/PPP1Q1PP/R5K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -156,7 +156,7 @@ Nf2# 0-1"
 [FEN ""r1b2rk1/1p2qppp/p3p3/2n5/3N4/3B1R2/PPP1Q1PP/R5K1 w - - 0 1""]
 
 1. Bxh7+! Kxh7 2. Rh3+ Kg8 3. Nf5 (3. Qh5 f6 -+) 3... Qg5 4. Qh5! Qxh5 (4... f6
-5. Ne7#) 5. Ne7+ Kh7 6. Rxh5# 1-0"
+5. Ne7#) 5. Ne7+ Kh7 6. Rxh5# 1-0",
 449,SMYSLOV,MAGRIN,Lugano(ol),1968,III,c,1.?,1-0,B,C,5n2/3bp1r1/1r1p3k/p1p2pNp/1nP2P1P/1PN1PB1K/P5R1/6R1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -168,7 +168,7 @@ Nf2# 0-1"
 [FEN ""5n2/3bp1r1/1r1p3k/p1p2pNp/1nP2P1P/1PN1PB1K/P5R1/6R1 w - - 0 1""]
 
 1. Nf7+ Rxf7 2. Rg5 Ng6 3. Rxg6+ Kh7 4. R6g5 d5 5. Nxd5 Nxd5 6. Bxd5 Rf8 7.
-Rxh5+ Rh6 8. Bg8+! *"
+Rxh5+ Rh6 8. Bg8+! *",
 450,BURNS,MORPHY,London,1858,III,d,1...?,0-1,B,C,r1b1k3/ppp2Npp/4Pn2/2b5/1nBpp3/N4P2/PPP3qP/R2QKR2 b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -179,7 +179,7 @@ Rxh5+ Rh6 8. Bg8+! *"
 [SetUp ""1""]
 [FEN ""r1b1k3/ppp2Npp/4Pn2/2b5/1nBpp3/N4P2/PPP3qP/R2QKR2 b - - 0 1""]
 
-1... Bxe6! 2. Bxe6 Nd3+! 3. Qxd3 (3. cxd3 Bb4+ -+) 3... exd3 -+ *"
+1... Bxe6! 2. Bxe6 Nd3+! 3. Qxd3 (3. cxd3 Bb4+ -+) 3... exd3 -+ *",
 451,EUWE,FLOR,Amsterdam,1932,III,g,1.?,1-0,B,C,r4rk1/1b3p1p/pq2pQp1/n5N1/P7/2RBP3/5PPP/3R2K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -192,7 +192,7 @@ Rxh5+ Rh6 8. Bg8+! *"
 
 1. Nxh7 Rfd8 (1... Kxh7 2. Bxg6+! Kg8 (2... fxg6 3. Rd7+ Kh6 4. Qh4#) 3. Bh7+
 (3. e4 Qxf2+ 4. Qxf2 +-) 3... Kxh7 4. e4 +-) 2. h4 Rd7 (2... Kxh7 3. Qxf7+ Kh8
-4. Rc7 +-) 3. h5 Kxh7 (3... Rad8 4. h6 +-) 4. Bxg6+! *"
+4. Rc7 +-) 3. h5 Kxh7 (3... Rad8 4. h6 +-) 4. Bxg6+! *",
 452,FRYDMAN,VIDMAR,Budapest,1934,III,e,1.?,1-0,B,C,2rq1rk1/3bbppp/p3pn2/1p1pN3/2nP1B2/P1NBP2Q/1P3PPP/2R2RK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -205,7 +205,7 @@ Rxh5+ Rh6 8. Bg8+! *"
 
 1. Nxd5! g6 (1... exd5 2. Nxd7 Qxd7 3. Bxh7+! Kh8 4. Bf5+ +-) (1... h6 2. Nxe7+
 Qxe7 3. Bxh6 gxh6 4. Qxh6 +-) 2. Nxe7+ Qxe7 3. Bxc4 Rxc4 4. Rxc4 bxc4 5. Bg5 +-
-*"
+*",
 453,ROJZMAN,KOC,SSSR,1950,III,f,1.?,1-0,B,C,r1b1Rnk1/6pp/p4q2/1pp2P2/3r4/2NB4/PP1Q2PP/4R1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -218,7 +218,7 @@ Qxe7 3. Bxh6 gxh6 4. Qxh6 +-) 2. Nxe7+ Qxe7 3. Bxc4 Rxc4 4. Rxc4 bxc4 5. Bg5 +-
 
 1. Nd5!! (1. Ne4 Qc6 2. Qg5 Rxd3 3. f6 g6) 1... Rxd5 (1... Qd6 2. Ne7+ Kf7 3.
 Nxc8 +-) 2. Bc4! Be6 3. R1xe6 Qxe6 4. Bxd5 Rxe8 5. Bxe6+ Nxe6 6. fxe6 Rxe6 7.
-Qd5 +- *"
+Qd5 +- *",
 454,FISHER,RESHEVSKY,USA(ch),1958,III,h,1.?,1-0,B,C,r1bqnrk1/pp1pppbp/6p1/n3P3/3N4/1BN1B3/PPP2PPP/R2QK2R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -230,7 +230,7 @@ Qd5 +- *"
 [FEN ""r1bqnrk1/pp1pppbp/6p1/n3P3/3N4/1BN1B3/PPP2PPP/R2QK2R w - - 0 1""]
 
 1. Bxf7+! Kxf7 (1... Rxf7 2. Ne6 +-) 2. Ne6 dxe6 (2... Kxe6 3. Qd5+ Kf5 4. g4+
-Kxg4 5. Rg1+ Kh4 6. Qe4+ +-) 3. Qxd8 +- *"
+Kxg4 5. Rg1+ Kh4 6. Qe4+ +-) 3. Qxd8 +- *",
 455,JIMENEZ,GLIGORIC,Palma-de-Mallorca,1967-4/315,III,e,1...?,0-1,B,C,3qr1k1/1pp4p/p1p2Pp1/3r1b2/1P2nP2/NQ6/P1P3PP/R1B1R1K1 b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -243,7 +243,7 @@ Kxg4 5. Rg1+ Kh4 6. Qe4+ +-) 3. Qxd8 +- *"
 
 1... Nc5! 2. Rxe8+ (2. Qg3 Rxe1+ 3. Qxe1 Rd1) 2... Qxe8 3. Qf3 (3. Qe3 Rd1+ 4.
 Kf2 Ne4+ -+) (3. Qc4 Bd3! (3... Qe1+!? 4. Qf1 Qxb4)) (3. Qc3 Rd1+ 4. Kf2 Ne4+
--+) 3... Bg4! *"
+-+) 3... Bg4! *",
 456,PUSCHMANN,LENGYEL,Magyarorszag,1971,III,d,1.?,1-0,B,C,2b2r1k/ppq3pp/3b3r/n3NpN1/Q2PpP1B/2P1R3/PP5P/4R1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -255,7 +255,7 @@ Kf2 Ne4+ -+) (3. Qc4 Bd3! (3... Qe1+!? 4. Qf1 Qxb4)) (3. Qc3 Rd1+ 4. Kf2 Ne4+
 [FEN ""2b2r1k/ppq3pp/3b3r/n3NpN1/Q2PpP1B/2P1R3/PP5P/4R1K1 w - - 0 1""]
 
 1. Ngf7+! Rxf7 (1... Kg8 2. Nxh6+ gxh6 3. Rg3+ Kh8 4. Qe8! +-) 2. Bd8! Rf8 3.
-Bxc7 Bxc7 4. Nf7+! Kg8 5. Nxh6+ +- *"
+Bxc7 Bxc7 4. Nf7+! Kg8 5. Nxh6+ +- *",
 457,MARSZINJAK,DOBOSZ,Zabrze,1973,III,d,1...?,0-1,B,C,r3r1k1/p2q1ppp/2p5/2bp4/5Pn1/1PQ5/PBP3PP/RN3R1K b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -266,7 +266,7 @@ Bxc7 Bxc7 4. Nf7+! Kg8 5. Nxh6+ +- *"
 [SetUp ""1""]
 [FEN ""r3r1k1/p2q1ppp/2p5/2bp4/5Pn1/1PQ5/PBP3PP/RN3R1K b - - 0 1""]
 
-1... Nf2+! 2. Rxf2 (2. Kg1 Ne4+ -+) 2... Bd4!! *"
+1... Nf2+! 2. Rxf2 (2. Kg1 Ne4+ -+) 2... Bd4!! *",
 458,BALASOV,STEAN,Teesside,1974,III,h,1...?,0-1,B,C,2r5/2q4k/1p4pb/pP1p3p/P2Pp1nP/BQN1Pb1R/3K1P2/5B2 b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -278,7 +278,7 @@ Bxc7 Bxc7 4. Nf7+! Kg8 5. Nxh6+ +- *"
 [FEN ""2r5/2q4k/1p4pb/pP1p3p/P2Pp1nP/BQN1Pb1R/3K1P2/5B2 b - - 0 1""]
 
 1... Nxe3! 2. fxe3 Bxe3+! 3. Kc2 (3. Kxe3 Qxc3+ -+) 3... Bxd4 4. Bb2 Bxc3 5.
-Bxc3 d4 -+ *"
+Bxc3 d4 -+ *",
 459,PAPLER,SAHOVIC,Jugoslavija(ch),1974,III,e,1...?,0-1,B,C,r3k2r/1bpqbppp/ppn1p3/8/3P1B2/P1PB1Q2/1P1N1PPP/R3K2R b KQkq - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -291,7 +291,7 @@ Bxc3 d4 -+ *"
 
 1... Ne5 2. Qg3 (2. Qxb7 Nxd3+ 3. Kf1 O-O 4. Qxc7 Qb5) (2. Qe3) 2... Bh4 3. Qe3
 (3. Qxh4 Nxd3+ 4. Kf1 (4. Kd1 Nxb2+) 4... Nxf4 5. Qxf4 Qb5+) (3. Qh3 Bxg2) 3...
-Bxf2+! *"
+Bxf2+! *",
 460,VOOREMAA,JUKSTI,SSSR,1977,III,j,1.?,1-0,B,C,r4rk1/pp4pp/2nqb3/3p4/8/2NB4/PP1Q1PPP/4RRK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -303,7 +303,7 @@ Bxf2+! *"
 [FEN ""r4rk1/pp4pp/2nqb3/3p4/8/2NB4/PP1Q1PPP/4RRK1 w - - 0 1""]
 
 1. Bxh7+! Kxh7 2. Ne4! Qb4 (2... Qd7 3. Ng5+ +-) 3. Qxb4 Nxb4 4. Ng5+ Kg8 5.
-Nxe6 +- *"
+Nxe6 +- *",
 461,PALEVIC,LUZNIAK,corr.,1985,III,f,1.?,1-0,B,C,r2r3k/p5qp/2pBP3/4N1pP/KpP5/8/8/7Q w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -318,7 +318,7 @@ Nxe6 +- *"
 Bxg7 Kxg7 =) 2. Ne7+ Kh8 (2... Kf8 3. Qf3+ Ke8 4. Qxc6+ Kf8 5. Nf5+ +-) 3. Be5!
 Qxe5 4. Ng6+! Kg7 (4... hxg6 5. hxg6+ Qh2 (5... Kg7 6. Qh7+ Kf8 7. Qf7#) 6.
 Qxh2+ Kg7 7. Qh7+ Kf6 8. Qf7+ Ke5 9. e7 Rdc8 10. g7 Rg8 11. Kxb4 +-) 5. Nxe5 +-
-*"
+*",
 462,ZUGER,W.FIEDLER,Bad-Ragaz,1990,III,d,1.?,1-0,B,C,R1n1bb1r/1k3p2/1q1p1p1p/2pPpP1B/1pP1P2P/1P1N3K/1N4P1/Q7 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -331,7 +331,7 @@ Qxh2+ Kg7 7. Qh7+ Kf6 8. Qf7+ Ke5 9. e7 Rdc8 10. g7 Rg8 11. Kxb4 +-) 5. Nxe5 +-
 
 1. Bxf7!! Bxf7 2. Na4 Qa7 (2... Qd8 3. Naxc5+! dxc5 4. Qa6+ Kc7 5. Qc6#) (2...
 Qc7 3. Naxc5+ +-) 3. Rxa7+ Nxa7 4. Naxc5+! dxc5 5. Qa5 Bd6 6. Nxc5+ Ka8 (6...
-Bxc5 7. Qxc5 +-) 7. Na6! +- *"
+Bxc5 7. Qxc5 +-) 7. Na6! +- *",
 463,KARPOV,TOPALOV,Dos-Hermanas,1994-60/58,III,h,1.?,1-0,B,C,2b1rb2/pp3pk1/2n3pp/2pN4/4qB2/2P2Q1P/PP3PP1/3R1BK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -343,7 +343,7 @@ Bxc5 7. Qxc5 +-) 7. Na6! +- *"
 [FEN ""2b1rb2/pp3pk1/2n3pp/2pN4/4qB2/2P2Q1P/PP3PP1/3R1BK1 w - - 0 1""]
 
 1. Nf6!! Kxf6 2. Be5+! Kxe5 3. Qxe4+ Kxe4 4. Re1+ Kf5 5. Rxe8 Be6 6. Rxf8 Bxa2
-7. Rc8 +- *"
+7. Rc8 +- *",
 464,RUCKSCHLOSS,VL.SERGEEV,Sala,1994,III,h/c,1...?,0-1,B,C,2rr2k1/6bp/p1q1p1p1/1p3pP1/1PnPpP1P/PQ2P3/N3K3/3RB1R1 b - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -357,7 +357,7 @@ Bxc5 7. Qxc5 +-) 7. Na6! +- *"
 1... Nxe3!! 2. Kxe3 (2. Qxe3 Qc4+ -+) 2... Bxd4+ 3. Rxd4 Rxd4 4. Kxd4 (4. Nc3
 Rd3+ 5. Ke2 Qd6) 4... Rd8+ (4... Qb6+ 5. Ke5 Qc7+ (5... Rc4? 6. Qd1 =) 6. Kd4
 Qa7+ 7. Ke5 Qg7+) 5. Ke3 Rd3+ 6. Qxd3 exd3 7. Rg3 (7. Kxd3 Qe4+ 8. Kc3 (8. Kd2
-Qd4+ -+) 8... Qe3+ -+) 7... Qe4+ 8. Kd2 Qe2+ -+ *"
+Qd4+ -+) 8... Qe3+ -+) 7... Qe4+ 8. Kd2 Qe2+ -+ *",
 465,LIND,OLSSON,Sverige,1976,III,h,1.?,1-0,B,C,r2qr1k1/1ppb1p1p/p1np2p1/7Q/3PP2b/1B2N2P/PP3PP1/R1B2RK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -370,7 +370,7 @@ Qd4+ -+) 8... Qe3+ -+) 7... Qe4+ 8. Kd2 Qe2+ -+ *"
 
 1. Bxf7+ Kg7 (1... Kxf7 2. Qxh7+ Kf8 (2... Ke6 3. f4 +-) 3. Nf5 +-) 2. Qh6+!!
 Kxf7 (2... Kxh6 3. Nf5+ Kh5 4. g4#) 3. Qxh7+ Kf8 (3... Kf6 4. Nd5+! Ke6 5. Nf4+
-+-) 4. Nf5! *"
++-) 4. Nf5! *",
 466,SARIEGO,J.ARENCIBIA,Cuba(ch),1987,III,g,1.?,1-0,B,C,1qrr2k1/1b3ppp/ppn1pb2/1N2N3/3P4/P2B4/1P2QPPP/3RR1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -386,7 +386,7 @@ Kxf7 3. Qxe6+ Kf8 4. Qg8#) 3. Nh8!! Qd6 (3... g6 4. Qxe6 Kg7 5. Qf7+ Kxh8 6.
 Qxf6+ Kxh7 7. Rd3 Rd5 8. Rh3+ Rh5 9. Rxh5+ {+M13} 9... gxh5 {+M8} 10. Re6 Rc7)
 (3... Rd6 4. Qh5 Rc7 5. Ng6+ Ke8 6. d5! Ne7 (6... Nd4 7. Ne5+ +-) 7. dxe6! Rxd1
 8. Nxe7+ +-) 4. Qh5 g6 (4... Rd7 5. Ng6+ Ke8 6. Nf4+ +-) 5. Qh6+ Ke7 (5... Bg7
-6. Nxg6+ Kf7 7. Qh5 +-) 6. Nxg6+ Ke8 7. d5! Ne5 8. Nxe5 Bxe5 9. Qh5+ +- *"
+6. Nxg6+ Kf7 7. Qh5 +-) 6. Nxg6+ Ke8 7. d5! Ne5 8. Nxe5 Bxe5 9. Qh5+ +- *",
 467,VEGH,RYMAN,Perpigan,1985,III,g,1.?,1-0,B,C,2r2k2/p1r2pp1/bp1bpn1p/q3N3/3P4/P3BP1Q/1P4PP/1B1RR1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -399,7 +399,7 @@ Qxf6+ Kxh7 7. Rd3 Rd5 8. Rh3+ Rh5 9. Rxh5+ {+M13} 9... gxh5 {+M8} 10. Re6 Rc7)
 
 1. Bxh6! gxh6 2. Qxh6+ Ke7 3. Nxf7! Qh5 (3... Kxf7 4. Qg6+ Ke7 (4... Kf8 5.
 Qxf6+ Rf7 6. Qh6+ Kg8 7. Qxe6 +-) 5. Qg7+ Kd8 6. Qxf6+ Be7 (6... Re7 7. Rxe6 +-)
-7. Qxe6 +-) (3... Bf4 4. Qxf4 Kxf7 5. d5 exd5 6. Bf5 Qc5+ 7. Kh1 +-) 4. Nxd6!! *"
+7. Qxe6 +-) (3... Bf4 4. Qxf4 Kxf7 5. d5 exd5 6. Bf5 Qc5+ 7. Kh1 +-) 4. Nxd6!! *",
 468,NIMZOWITSCH,MARCO,Goteborg,1920,III,j,1.?,1-0,B,C,r1b1kn1r/ppq1bpp1/2p2n1p/4p3/P1B1P3/1PN2N2/1BP2PPP/R2Q1RK1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -412,7 +412,7 @@ Qxf6+ Rf7 6. Qh6+ Kg8 7. Qxe6 +-) 5. Qg7+ Kd8 6. Qxf6+ Be7 (6... Re7 7. Rxe6 +-)
 
 1. Nxe5! Qxe5 2. Nd5! Qd6 (2... Qb8 3. Nxe7 Kxe7 4. Ba3+ Ke8 5. Bd6 +-) 3. Ba3
 (3. e5? Qxd5) 3... cxd5 (3... c5 4. e5! Qb8 (4... Qxe5 5. Re1 Ne4 6. Rxe4 Qxe4
-7. Nc7#)) 4. Bxd6 dxc4 5. Bxe7 Kxe7 6. e5 Ne8 7. Qd5 +- cxb3 *"
+7. Nc7#)) 4. Bxd6 dxc4 5. Bxe7 Kxe7 6. e5 Ne8 7. Qd5 +- cxb3 *",
 469,ALEHIN,TARTAKOWER,Kecskemet,1927,III,e,1.?,1-0,B,C,rn1qr1k1/p3bppp/bp3n2/2p2N2/2Q5/3BB1N1/PPP2PPP/2KR3R w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -427,7 +427,7 @@ Qxf6+ Rf7 6. Qh6+ Kg8 7. Qxe6 +-) 5. Qg7+ Kd8 6. Qxf6+ Be7 (6... Re7 7. Rxe6 +-)
 Kh8 3. Qxf7 Nbd7 4. Nf5! (4. Bxh6!? Bf8 5. Bg5) (4. Nh5!? Nxh5 5. Bf5) 4... Bf8
 5. Nh4 Bg7 6. Bf5 Bb7 7. Ng6+ Kh7 8. Ne7+ Kh8 9. Qg8+! Rxg8 10. Ng6+ Kh7 11.
 Ne5+ Kh8 12. Nf7#) 3. Qg4+ Kh8 4. Rxd8 Rxd8 5. Qe4! Nc6 6. Qxc6 Bf8 7. Nf5 Bc4
-8. Bxh6 Bd5 9. Qc7 Rac8 10. Qf4 Rc6 11. Bxf8 Rxf8 12. Qe5+ Nf6 13. Nd6! *"
+8. Bxh6 Bd5 9. Qc7 Rac8 10. Qf4 Rc6 11. Bxf8 Rxf8 12. Qe5+ Nf6 13. Nd6! *",
 470,HOLLI,ARNOLD,corr.,1963,III,j,1.?,1-0,B,C,r1bqrbk1/5p1p/2pp2nB/pp5Q/4P3/PBNPR2P/1P4P1/R5K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -441,7 +441,7 @@ Ne5+ Kh8 12. Nf7#) 3. Qg4+ Kh8 4. Rxd8 Rxd8 5. Qe4! Nc6 6. Qxc6 Bf8 7. Nf5 Bc4
 1. Bxf7+ Kxf7 2. Bg5 (2. Bxf8? Kg8 =) 2... Qb6 (2... Be7 3. Qxh7+ Ke6 4. Qxg6+
 Kd7 5. e5! Rg8 6. Qf7 Rxg5 7. exd6 +-) 3. Qxh7+ Ke6 (3... Bg7 4. Rf1+ +-) 4.
 Qxg6+ Kd7 5. Qf7+ (5. Qf5+ Kc7 6. Qf7+ Bd7 7. Nd5+! cxd5 8. Rc1+) 5... Be7 6.
-Nd5 cxd5 7. exd5 +- *"
+Nd5 cxd5 7. exd5 +- *",
 471,GLIGORIC,LITTLEWOOD,Hastings,1964/65,III,g,1.?,1-0,B,C,r4rk1/2q1b1p1/p4p1p/n3pP2/1p2Q1N1/4B3/PPP3PP/4RR1K w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -453,7 +453,7 @@ Nd5 cxd5 7. exd5 +- *"
 [FEN ""r4rk1/2q1b1p1/p4p1p/n3pP2/1p2Q1N1/4B3/PPP3PP/4RR1K w - - 0 1""]
 
 1. Nxh6+! gxh6 2. Qg4+ Kh8 3. Qh5! Bd6 4. Bb6! Qg7 (4... Qxb6 5. Qxh6+ Kg8 6.
-Qg6+ Kh8 7. Rf3 +-) 5. Bxa5 +- *"
+Qg6+ Kh8 7. Rf3 +-) 5. Bxa5 +- *",
 472,GELLER,KERES,SSSR(ch),1973-16/248,III,g,1.?,1-0,B,C,r1bqr1k1/1p1nnpb1/p5pp/2P1p1B1/B3N3/5N2/P4PPP/2RQR1K1 w - - 0 1,"[Event ""?""]
 [Site ""?""]
 [Date ""????.??.??""]
@@ -466,4 +466,69 @@ Qg6+ Kh8 7. Rf3 +-) 5. Bxa5 +- *"
 
 1. Nd6! hxg5 (1... Rf8 2. Bxe7 Qxe7 3. Nxc8 +-) 2. Nxf7! Qa5 (2... Kxf7 3. Nxg5+
 Kf6 4. Nh7+ Kf7 5. Bb3+ +-) (2... Qc7 3. N7xg5 Rf8 4. Bb3+) 3. N7xg5 Rf8 4. Bxd7
-*"
+*",
+473,MUSAJBEKOV,CORUNSCIJ,corr.,1977,III,f,1...?,0-1,B,C,r1bqr1k1/pp3ppp/2n5/2bp4/3N1Pn1/1BP5/PP2N1PP/R1BQ1RK1 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r1bqr1k1/pp3ppp/2n5/2bp4/3N1Pn1/1BP5/PP2N1PP/R1BQ1RK1 b - - 0 1""]
+
+1... Nxh2! 2. Kxh2 Qh4+ 3. Kg1 Bg4! 4. Re1 (4. Rf2 Bxe2 5. Rxe2 Rxe2 6. Qxe2
+Nxd4 7. cxd4 Bxd4+ 8. Be3 Re8 -+) (4. Rf3 Bxf3 5. gxf3 Nxd4 6. cxd4 Bxd4+ -+)
+4... Nxd4 5. cxd4 Bxd4+ -+ *",
+474,KNEZEVIC,CONSIOR,Stary-Smokovec,1979,III,g/e,1.?,1-0,B,C,r4rk1/pp1n1q1p/2pbn1p1/3p2P1/3P2BN/1P2P3/PBQ2P2/2KR3R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r4rk1/pp1n1q1p/2pbn1p1/3p2P1/3P2BN/1P2P3/PBQ2P2/2KR3R w - - 0 1""]
+
+1. Nxg6!! hxg6 2. Rh6 Kg7 (2... Rfe8 3. Rxg6+ Kf8 4. Rh1 +-) 3. Bh5! Nf4 (3...
+Rh8 4. Rxg6+ Kf8 5. Rh6 Qg8 (5... Qxh5 6. Rxh5 Rxh5 7. Qg6) 6. Qf5+ Ke7 7. Rxh8
+Qxh8 8. Qf7+ +-) 4. exf4 Bxf4+ 5. Kb1 Qf5 6. Qxf5 (6. Rxg6+ +-) 6... Rxf5 (6...
+gxf5 7. Re6) 7. Rxg6+ +- *",
+475,KARAYANNIS,HRISTOPOULOS,Greece,1981,III,j,1...?,0-1,B,C,r2q1rk1/1ppb1ppp/3p1n2/2PPp3/PB2Pn2/2NB4/5PPP/R2Q1RK1 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r2q1rk1/1ppb1ppp/3p1n2/2PPp3/PB2Pn2/2NB4/5PPP/R2Q1RK1 b - - 0 1""]
+
+1... Bh3! 2. gxh3 (2. cxd6 cxd6 3. Nb5 Ne8 -+) 2... N6xd5 3. Nxd5 (3. Kh1 Nxb4
+-+) 3... Qg5+ 4. Qg4 Nxh3+ -+ *",
+476,BOGDANOVIC,P''DEVSKI,Sarajevo,1970-9/264,III,e/d,1.?,1-0,B,C,r2n1rk1/3qb1pp/p2p4/1p1bpP2/1P6/P2BBN1P/5PP1/2RQR1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r2n1rk1/3qb1pp/p2p4/1p1bpP2/1P6/P2BBN1P/5PP1/2RQR1K1 w - - 0 1""]
+
+1. Nxe5! Qb7 (1... dxe5 2. Be4 +-) 2. Ng6!! hxg6 (2... Rf7 3. Nxe7+ Rxe7 4. Qh5
+Bxg2 5. f6) 3. fxg6 Re8 (3... Rf6 4. Qh5 +-) 4. Qh5 Bf6 5. Bg5 Be5 6. Be4! Bxe4
+7. Qh7+ Kf8 8. Qh8# 1-0",
+477,JASSEM,LOBRON,Dubai(ol),1986,III,e,1.?,1-0,B,C,r1br2k1/pp1qppbp/1nn5/1Np1Pp2/4B3/2P2N2/PP2Q1PP/R1B2RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r1br2k1/pp1qppbp/1nn5/1Np1Pp2/4B3/2P2N2/PP2Q1PP/R1B2RK1 w - - 0 1""]
+
+1. Ng5! fxe4 (1... e6 2. Bxc6 bxc6 3. Nd6 +-) 2. Qh5 Nxe5 3. Qxh7+ Kf8 4. Nxf7!!
+Nf3+ (4... Nxf7 5. Bh6!) 5. gxf3 exf3 (5... Qh3 6. Nh6 -+ (6. Bh6 +-)) 6. Nh6
+Qd5 7. Rxf3+ Ke8 8. Nc7+ +- *",AI cannot solve
