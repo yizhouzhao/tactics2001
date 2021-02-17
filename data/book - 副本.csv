@@ -737,10 +737,10 @@ g6+ +-) 4. Qh8+ Kf7 5. Qxf6+ Kg8 6. Bc6!! Rf8 (6... Nxc6 7. gxh6 Kh7 8. Rg1 Rg8
 [SetUp ""1""]
 [FEN ""r4rk1/2q2p2/p3bbp1/3np2p/1p1NQ2P/3B1PB1/PPP3P1/1K1R3R b - - 0 1""]
 
-1... Nc3+! 2. bxc3 Bxa2+ (2... bxc3! 3. Ka1 Bxa2 4. Nb3 ?) 3. Ka1 (3. Kxa2 Qa5+
+1... Nc3+! 2. bxc3 Bxa2+ (2... bxc3! 3. Ka1 Bxa2 4. Nb3 ±) 3. Ka1 (3. Kxa2 Qa5+
 4. Kb1 bxc3 5. Bc4 Qa3 (5... Rab8+? 6. Nb3 Qa3 7. Qxg6+ Bg7 8. Qxg7+ Kxg7 9.
 Bxe5+ +-) 6. Qxg6+ Bg7 7. Bxf7+ Rxf7 8. Qb6 Raa7 -+) 3... Be6! (3... Qxc3+ 4.
-Kxa2 exd4 5. Qd5! ?) 4. Nb3! (4. Nxe6 Qa5+ 5. Kb1 bxc3 -+) 4... Qxc3+ 5. Kb1
+Kxa2 exd4 5. Qd5! ±) 4. Nb3! (4. Nxe6 Qa5+ 5. Kb1 bxc3 -+) 4... Qxc3+ 5. Kb1
 Bxb3 6. Be1 (6. cxb3? Qxb3+ 7. Ka1 Rad8! -+ 8. Bc2 Qa3+ 9. Kb1 b3 -+) 6... Ba2+!
 7. Kxa2 Qa3+ 8. Kb1 b3 9. cxb3 Qxb3+ 10. Kc1 Rad8! (10... Rfd8? 11. Rd2) 11. Bc2
 Qa3+ 12. Kb1 Rb8+ -+ *",
