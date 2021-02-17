@@ -19,7 +19,29 @@ var letter2chess = {
 	"bP": "&#9823;",
 }
 
+function change_tag(n){
+	var panels = $("main").find(".examples-body-9af4d");
+	panels.each(function(){
+		$(this).css("display","none");
+	})
+	console.log("change nav tag" + n.toString());
+	panels.eq(n).css("display","");
+}
+
 function init() {
+	//set nav tag
+	var nav_tags = $("#groupContainer-1").find("li");
+	nav_tags.each(function (){
+		var data_id = $(this).data("id");
+		$(this).click(function(){
+			nav_tags.each(function(){$(this).removeClass("active");})
+			$(this).addClass("active");
+			change_tag(data_id);
+		});
+	})
+	//set dafault tag
+	nav_tags.eq(0).trigger("click");
+	
     //init code
     board_count_num = 0;
 
