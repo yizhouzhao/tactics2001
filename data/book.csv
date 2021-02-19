@@ -744,3 +744,75 @@ Kxa2 exd4 5. Qd5! ?) 4. Nb3! (4. Nxe6 Qa5+ 5. Kb1 bxc3 -+) 4... Qxc3+ 5. Kb1
 Bxb3 6. Be1 (6. cxb3? Qxb3+ 7. Ka1 Rad8! -+ 8. Bc2 Qa3+ 9. Kb1 b3 -+) 6... Ba2+!
 7. Kxa2 Qa3+ 8. Kb1 b3 9. cxb3 Qxb3+ 10. Kc1 Rad8! (10... Rfd8? 11. Rd2) 11. Bc2
 Qa3+ 12. Kb1 Rb8+ -+ *",
+493,DELY,GLASS,Reggio-Emilia,1960,I,g,1.?,1-0,B,D,3rr1k1/ppq1bp1p/2b1p1pB/3nP1N1/8/7Q/PP3PPP/RB2R1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""3rr1k1/ppq1bp1p/2b1p1pB/3nP1N1/8/7Q/PP3PPP/RB2R1K1 w - - 0 1""]
+
+1. Bxg6! hxg6 (1... fxg6 2. Qxe6+ Kh8 3. Nf7+ +-) (1... Bxg5 2. Bxh7+ Kxh7 3.
+Bxg5+ Kg8 4. Re3 f6 (4... Nxe3 5. Bf6 +-) 5. Rg3 fxg5 6. Rxg5+ +-) 2. Bg7 +- *",
+494,ALEHIN,DREWITT,Portsmouth,1923,I,g,1.?,1-0,B,D,3r2k1/pp2qppp/2b1p3/3p4/5P2/b2BPR2/1B1N2PP/3Q2K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""3r2k1/pp2qppp/2b1p3/3p4/5P2/b2BPR2/1B1N2PP/3Q2K1 w - - 0 1""]
+
+1. Bxh7+! Kxh7 (1... Kf8 2. Bxg7+ +-) 2. Rh3+ Kg8 3. Bxg7! f6 4. Bh6! Qh7 (4...
+e5 5. Qh5 +-) 5. Qh5! Bf8 6. Qg4+ Kf7 7. Bxf8 +- *",
+495,MOHRING,FINSH,Mar-del-Plata,1960,I,g,1.?,1-0,B,D,r4rk1/1bq2ppp/p1p1p3/2b1P1B1/3p2Q1/3B4/PPP2PPP/R3R1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r4rk1/1bq2ppp/p1p1p3/2b1P1B1/3p2Q1/3B4/PPP2PPP/R3R1K1 w - - 0 1""]
+
+1. Bxh7+ Kxh7 2. Bf6! gxf6 (2... g6 3. Qh4+ Kg8 4. Qh8#) (2... Rg8 3. Qh5#) 3.
+Qh4+ Kg8 4. Qg3+ Kh7 5. Re4 +- *",AI cannot solve
+496,KR.GEORGIEV,PANBUKCJAN,Varna,1977,I,d,1.?,1-0,B,D,r3r1k1/p2n4/3p1pp1/qnp3B1/1p2P1P1/1P3P2/PP2N2Q/1K1R1B2 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r3r1k1/p2n4/3p1pp1/qnp3B1/1p2P1P1/1P3P2/PP2N2Q/1K1R1B2 w - - 0 1""]
+
+1. Nf4! fxg5 2. Qh6! Ne5 3. Bc4+! Nxc4 4. Qxg6+ Kf8 5. Qf6+ Kg8 6. Rh1 Nd2+ 7.
+Kc1 Nxb3+ 8. Kd1 Nc3+ 9. Ke1 +- *",
+497,KRUGER,ISKOV,Dortmund,1978-25/657,I,c/d,1.?,1-0,B,D,r4rk1/p1p2pp1/bp1p1q1p/n1nPpN2/2P1P2P/2PB4/P2BQPP1/R3K2R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r4rk1/p1p2pp1/bp1p1q1p/n1nPpN2/2P1P2P/2PB4/P2BQPP1/R3K2R w - - 0 1""]
+
+1. Bg5! hxg5 2. hxg5 Qxg5 3. Qh5! Nxd3+ (3... Qxh5 4. Ne7+! Kh7 5. Rxh5#) 4. Kf1
+Qxg2+ 5. Kxg2 Nf4+ 6. Kf3 +- *",
+498,MILES,BROWNE,Luzern(ol),1982,I,g,1.?,1-0,B,D,3r1rk1/bpq2ppp/p1b1p3/2P5/1P2B3/P4Q2/1B3PPP/2R2RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""3r1rk1/bpq2ppp/p1b1p3/2P5/1P2B3/P4Q2/1B3PPP/2R2RK1 w - - 0 1""]
+
+1. Bxh7+! Kxh7 2. Qh5+ Kg8 3. Bxg7! Kxg7 4. Qg5+ Kh8 5. Qf6+ Kg8 6. Rc4! Rfe8 7.
+Rh4 +- *",
