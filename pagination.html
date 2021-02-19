@@ -5,17 +5,15 @@
 <title>Untitled Document</title>
 <link rel="stylesheet" href="css/website2.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
 <script src="js/paginationa.js"></script> 
 <script>
 $( document ).ready(hello_world);
 </script>
 </head>
 <body>
-
 <div>
     <ul class="pagination" id="pageUl">
         <li class="page-item" id="previousPageLi"><a class="page-link" href="#" aria-label="Previous" onClick="change_page(false)" id=""><span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span></a></li>
@@ -27,15 +25,28 @@ $( document ).ready(hello_world);
         <li class="page-item" id="nextPageLi"><a class="page-link" href="#" aria-label="Next" onClick="change_page(true)"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li>
     </ul>
 </div>
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <img src="img/chesspieces/wikipedia/bB.png">
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">Action</button>
-    <button class="dropdown-item" type="button">Another action</button>
-    <button class="dropdown-item" type="button">Something else here</button>
-  </div>
+<div class="row">
+    <div class="dropdown">
+        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="img/chesspieces/wikipedia/wB.png"> </button>
+        <div class="dropdown-menu">
+            <button class="dropdown-item" type="button" data-id="0"><img src="img/chesspieces/wikipedia/wP.png"></button>
+            <button class="dropdown-item" type="button" data-id="1"><img src="img/chesspieces/wikipedia/wN.png"></button>
+            <button class="dropdown-item" type="button" data-id="2"><img src="img/chesspieces/wikipedia/wB.png"></button>
+            <button class="dropdown-item" type="button" data-id="3"><img src="img/chesspieces/wikipedia/wR.png"></button>
+            <button class="dropdown-item" type="button" data-id="4"><img src="img/chesspieces/wikipedia/wQ.png"></button>
+        </div>
+    </div>
+	<div class="dropdown">
+        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>A</span></button>
+        <div class="dropdown-menu">
+			<button class="dropdown-item" type="button" data-id="0">A</button>
+            <button class="dropdown-item" type="button" data-id="0">B</button>
+            <button class="dropdown-item" type="button" data-id="1">C</button>
+            <button class="dropdown-item" type="button" data-id="2">D</button>
+            <button class="dropdown-item" type="button" data-id="3">E</button>
+            <button class="dropdown-item" type="button" data-id="4">F</button>
+        </div>
+    </div>
 </div>
 </body>
 </html>
