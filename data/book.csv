@@ -858,6 +858,40 @@ Kf7 5. g6+! +-) 4. Qh6+ Kg8 5. g6 Nf6 6. Rg1! (6. g7? Nh7 -+) 6... Qxd5 7. g7!
 Rb8 11. Bh5 a3 12. Bg6+ Kg8 13. Bf7+!! Qxf7 14. h7+ Kxh7 15. Rh3+ +-) 4. h5 Rg8
 5. h6 Qe7 6. Bf3! Rb2 7. Bh5 Rgb8 8. g7+ Kg8 9. Bf7+!! Qxf7 (9... Kxf7 10. h7
 +-) 10. h7+ Kxh7 11. Rh3+ Kxg7 12. Qh6+ Kg8 13. Qh8# 1-0",AI cannot solve
-502,LITTLEWOOD,NINDLE,Nottingham,1963,II,d,1.?,1/2-1/2,B,D,,,
-503,VASJUKOV,HOLMOV,Moskva,1964,III,e,1.?,1-0,B,D,,,
-504,BARGIROV,HOLMOV,SSSR(ch),1970-10/655,III,c,1.?,1-0,B,D,,,
+502,LITTLEWOOD,NINDLE,Nottingham,1963,II,d,1.?,1/2-1/2,B,D,2rq1rk1/5ppp/2b1pb2/np6/6N1/2NBB3/PP3PPP/R2Q2K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2rq1rk1/5ppp/2b1pb2/np6/6N1/2NBB3/PP3PPP/R2Q2K1 w - - 0 1""]
+
+1. Bb6!! Qxb6 2. Nxf6+ gxf6 (2... Kh8 3. Nxh7 +-) 3. Bxh7+! Kxh7 4. Qh5+ Kg7 5.
+Qg4+ = *",
+503,VASJUKOV,HOLMOV,Moskva,1964,III,e,1.?,1-0,B,D,4rrk1/1bp2ppp/p4b1B/1pq2B2/6Q1/2P4P/PP3PP1/3RR1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""4rrk1/1bp2ppp/p4b1B/1pq2B2/6Q1/2P4P/PP3PP1/3RR1K1 w - - 0 1""]
+
+1. Bxg7! Bxg7 2. Qh5! h6 3. Bh7+ +- *",
+504,BARGIROV,HOLMOV,SSSR(ch),1970-10/655,III,c,1.?,1-0,B,D,r1b1qbk1/7p/4p1p1/1p2Bp2/p1B2Q2/P3P3/1P3PPP/3R2K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r1b1qbk1/7p/4p1p1/1p2Bp2/p1B2Q2/P3P3/1P3PPP/3R2K1 w - - 0 1""]
+
+1. Bc3! Bg7 (1... bxc4 2. Qe5 Qe7 3. Qh8+ Kf7 4. Qxh7+ Ke8 5. Qxg6+ Qf7 6. Rd8+
+Ke7 7. Bf6+! Qxf6 8. Qe8#) (1... Ra7 2. Qd4! Rg7 3. Qd8! Qxd8 4. Rxd8 bxc4 (4...
+Rc7 5. Bxb5 +-) 5. Bxg7 Kxg7 6. Rxc8 +-) (1... b4 2. axb4 Ra7 3. Qd4 Rg7 4. Qf6
+Qe7 5. Rd8) 2. Qc7 +- *",
