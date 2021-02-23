@@ -255,17 +255,18 @@ function make_hover_card(block_id, book_item, FEN = "") {
 function change_page(next_page = true, init = false, page = 0, my_book = book) {
     //change page
     var page_id = parseInt($("#pageId").text());
+	console.log("change_page page_id " + page_id.toString());
     if (next_page)
         page_id++;
     else
         page_id--;
 
     var max_page = Math.ceil(my_book.length / 9)
-	console.log("max_page " + max_page.toString());
+	//console.log("max_page " + max_page.toString());
 	
     if (init) {
         page_id = 1;
-        make_pagination(max_page);
+        make_pagination(max_page, my_book);
     } else if (page > 0) {
         page_id = page;
     }
@@ -333,21 +334,39 @@ function solution_string2chess_code(solution) {
     return new_solution;
 }
 
-
 //make pagination 
-function make_pagination(max_page) {
+function make_pagination(max_page, my_book=book) {
+	console.log("init make_pagination");
     var page_ul = $("#pageUl");
+	var page_ul_li = page_ul.children();
+	for (var i = 1; i < page_ul_li.length-1; i++){
+		page_ul_li.eq(i).remove();
+	}
+	
+	//previous and next page buttons
+	var previous_page = $("#pageUl li:first-child");
+	var next_page = $("#pageUl li:last-child");
+	previous_page.unbind("click");
+	previous_page.click(function(){
+		change_page(false, false, 0, my_book);
+	})
+	next_page.unbind("click");
+	next_page.click(function(){
+		change_page(true, false, 0, my_book);
+	})
+	
     for (var i = 1; i <= max_page; i++) {
         var page_li = $(`<li class="page-item"><a class="page-link" href="#">${i.toString()}</a></li>`);
-        page_li.insertBefore("#pageUl li:last-child");
+        page_li.insertBefore(next_page);
         var page_link = page_li.find("a");
         page_link.attr("page_num", i.toString());
         page_link.click(function () {
             var page_num = $(this).attr("page_num");
             console.log("setpage!" + page_num);
-            change_page(true, false, page_num);
+            change_page(true, false, page_num, my_book);
         });
     }
+	
 
 }
 
@@ -437,6 +456,7 @@ function init_menu() {
         }
         button_child.click(function () {
             drop_menu_button2.data("id", $(this).data("id"));
+			console.log(drop_menu_button2.data("id"));
             drop_menu_button2.text(" " + $(this).text() + " ");
 			change_book_from_menu_button();
         })
