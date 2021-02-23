@@ -255,15 +255,14 @@ function make_hover_card(block_id, book_item, FEN = "") {
 function change_page(next_page = true, init = false, page = 0, my_book = book) {
     //change page
     var page_id = parseInt($("#pageId").text());
-	console.log("change_page page_id " + page_id.toString());
     if (next_page)
         page_id++;
     else
         page_id--;
 
     var max_page = Math.ceil(my_book.length / 9)
-	//console.log("max_page " + max_page.toString());
-	
+    console.log("max_page " + max_page.toString());
+
     if (init) {
         page_id = 1;
         make_pagination(max_page, my_book);
@@ -271,8 +270,9 @@ function change_page(next_page = true, init = false, page = 0, my_book = book) {
         page_id = page;
     }
 
+    console.log("change_paged page_id " + page_id.toString());
     //change page
-    set_pagination(page_id, max_page);
+    set_pagination(page_id, max_page, my_book);
 
     $("#pageId").text(page_id.toString());
 
@@ -335,26 +335,26 @@ function solution_string2chess_code(solution) {
 }
 
 //make pagination 
-function make_pagination(max_page, my_book=book) {
-	console.log("init make_pagination");
+function make_pagination(max_page, my_book = book) {
+    console.log("init make_pagination");
     var page_ul = $("#pageUl");
-	var page_ul_li = page_ul.children();
-	for (var i = 1; i < page_ul_li.length-1; i++){
-		page_ul_li.eq(i).remove();
-	}
-	
-	//previous and next page buttons
-	var previous_page = $("#pageUl li:first-child");
-	var next_page = $("#pageUl li:last-child");
-	previous_page.unbind("click");
-	previous_page.click(function(){
-		change_page(false, false, 0, my_book);
-	})
-	next_page.unbind("click");
-	next_page.click(function(){
-		change_page(true, false, 0, my_book);
-	})
-	
+    var page_ul_li = page_ul.children();
+    for (var i = 1; i < page_ul_li.length - 1; i++) {
+        page_ul_li.eq(i).remove();
+    }
+
+    //previous and next page buttons
+    var previous_page = $("#pageUl li:first-child");
+    var next_page = $("#pageUl li:last-child");
+    previous_page.unbind("click");
+    previous_page.click(function () {
+        change_page(false, false, 0, my_book);
+    })
+    next_page.unbind("click");
+    next_page.click(function () {
+        change_page(true, false, 0, my_book);
+    })
+
     for (var i = 1; i <= max_page; i++) {
         var page_li = $(`<li class="page-item"><a class="page-link" href="#">${i.toString()}</a></li>`);
         page_li.insertBefore(next_page);
@@ -366,29 +366,39 @@ function make_pagination(max_page, my_book=book) {
             change_page(true, false, page_num, my_book);
         });
     }
-	
+
 
 }
 
 //set pagination
-function set_pagination(page, max_page) {
+function set_pagination(page, max_page, my_book=book) {
     var page_ul = $("#pageUl");
     var previous_page_li = $("#pageUl li:first-child");
     var next_page_li = $("#pageUl li:last-child");
 
 
     if (page == 1) {
+        previous_page_li.unbind("click");
         previous_page_li.addClass("disabled");
     } else {
         if (previous_page_li.hasClass("disabled"))
             previous_page_li.removeClass("disabled");
+		previous_page_li.unbind("click");
+        previous_page_li.click(function () {
+            change_page(false, false, 0, my_book);
+        })
     }
 
     if (page >= max_page) {
+        next_page_li.unbind("click");
         next_page_li.addClass("disabled");
     } else {
         if (next_page_li.hasClass("disabled"))
             next_page_li.removeClass("disabled");
+		next_page_li.unbind("click");
+		next_page_li.click(function () {
+            change_page(true, false, 0, my_book);
+        })
     }
 
     var ul_children = page_ul.children();
@@ -456,17 +466,17 @@ function init_menu() {
         }
         button_child.click(function () {
             drop_menu_button2.data("id", $(this).data("id"));
-			console.log(drop_menu_button2.data("id"));
+            console.log(drop_menu_button2.data("id"));
             drop_menu_button2.text(" " + $(this).text() + " ");
-			change_book_from_menu_button();
+            change_book_from_menu_button();
         })
     }
 }
 
 //change book from menu button 
 function change_book_from_menu_button() {
-	var piece = $("#dropdownMenu1").data("id");
-	var note = $("#dropdownMenu2").data("id");
-	var filter_book = book.filter(book_item => book_item["piece"] == piece && book_item["part"] == note);
-	change_page(next_page = true, init = true, page = 0, my_book = filter_book);
+    var piece = $("#dropdownMenu1").data("id");
+    var note = $("#dropdownMenu2").data("id");
+    var filter_book = book.filter(book_item => book_item["piece"] == piece && book_item["part"] == note);
+    change_page(next_page = true, init = true, page = 0, my_book = filter_book);
 }

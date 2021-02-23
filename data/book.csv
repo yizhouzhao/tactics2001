@@ -936,3 +936,42 @@ dxc5 Re2) 5... Qh1+ 6. Kf2 Bxf1 *",
 1... Bxf3! 2. Bxf3 Bd4!! (2... Nxf3+?? 3. Qxf3 Qxd6 4. c5 =) 3. Bb2 (3. Qxd4?
 Nxf3+ -+) (3. Nxb7 Bxc3+ -+) 3... Qxd6 4. Be2 Rad8 5. Qc2 (5. Rf1 Nfg4 (5...
 Qe6!? -+) 6. Bxg4 Nxg4? = (6... Qh6)) 5... Nfg4! 6. Bxg4 Nxg4 *",
+508,JUNGE,KOTTNAUER,Praha,1942,III,g,1.?,1-0,B,D,1q3rk1/pb1rbppp/1p2p3/1Nnp4/2P2P2/1P1BP3/PB2Q1PP/3R1RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""1q3rk1/pb1rbppp/1p2p3/1Nnp4/2P2P2/1P1BP3/PB2Q1PP/3R1RK1 w - - 0 1""]
+
+1. Bxh7+ Kxh7 2. Qh5+ Kg8 3. Bxg7 f5 (3... Kxg7 4. Qg4+ (4. Rf3? Ne4!) 4... Kh8
+5. Rf3 f5 6. Rh3+ Bh4 7. Qxh4+ Kg8 8. Qh8+ Kf7 9. Rh7+ Ke8 10. Qxf8+! +-) 4.
+Be5! Bf6 5. Bxb8 +- 1/2-1/2",AI cannot solve
+509,SHAMKOVICH,AHGUIANO,Mexico,1978,IV,g,1.?,1-0,B,D,r2r2k1/pb1nbpp1/1qp1pn1p/1p2N3/3P1B2/P1N1P3/BPQ2PPP/2R2RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r2r2k1/pb1nbpp1/1qp1pn1p/1p2N3/3P1B2/P1N1P3/BPQ2PPP/2R2RK1 w - - 0 1""]
+
+1. Bxh6! gxh6 (1... Nxe5 2. dxe5 gxh6 3. exf6 Bxf6 4. Ne4 +-) 2. Bxe6! Nxe5
+(2... Kg7 3. f4 Nxe5 4. fxe5 fxe6 5. exf6+ Bxf6 6. Rxf6! Kxf6 7. Qh7! +-) 3.
+dxe5 Nd5 (3... fxe6 4. Qg6+ Kh8 5. exf6 Bf8 6. f7 Bg7 7. Ne4! Rd5 8. Nf6! +-)
+(3... Nh7 4. Qg6+ Kh8 5. Qxf7 Bg5 6. Ne4 +-) 4. Qg6+ Kh8 5. Qxh6+ +- *",
+510,SUETIN,JIMENEZ,La-Habana,1969-8/420,IV,a,1.?,1-0,B,D,rq1r2k1/3nbp1p/p2p2p1/1p1Pp1P1/3B1P2/3B3Q/PPP4P/2KR2R1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""rq1r2k1/3nbp1p/p2p2p1/1p1Pp1P1/3B1P2/3B3Q/PPP4P/2KR2R1 w - - 0 1""]
+
+1. f5 exd4 2. fxg6 hxg6 3. Bxg6 Nf8 4. Bxf7+ Kxf7 5. g6+ Kg7 6. Rdf1 Bf6 7. Rxf6
++- *",
