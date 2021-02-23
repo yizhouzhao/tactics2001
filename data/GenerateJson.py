@@ -37,7 +37,7 @@ data_dict =  data.to_dict('records')
 for item in data_dict:
     item['description'] = "{} {} {} {} {} {} {} {} {}".format(item['no'],item['player1'],item['player2'],item['place'],
                                                           item['year'],item['class'],item['strategy'],item['move'],
-                                                          "+-" if item['result'] == "1-0" else "-+"
+                                                          "+-" if item['result'] == "1-0" else "-+" if item['result'] == "0-1" else "=" 
                                                          )
     item['solution'] = item["PGN"].split("\n\n")[-1]
     item['solution'] = item['solution'].replace("\n"," ")

@@ -70,3 +70,10 @@ function set_pagination(page, max_page) {
     }
 
 }
+
+//set menu selection button
+function init_menu(){
+	console.log("init menu");
+	var drop_menu2 = $("#dropdownMenu2");//.find(".dropdown");
+	console.log(drop_menu2);
+}

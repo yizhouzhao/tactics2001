@@ -5,43 +5,45 @@ var chessboard_list = []
 
 //Letter2Chesscode
 var letter2chess = {
-	"wK": "&#9812;",
-	"wQ": "&#9813;",
-	"wR": "&#9814;",
-	"wB": "&#9815;",
-	"wN": "&#9816;",
-	"wP": "&#9817;",
-	"bK": "&#9818;",
-	"bQ": "&#9819;",
-	"bR": "&#9820;",
-	"bB": "&#9821;",
-	"bN": "&#9822;",
-	"bP": "&#9823;",
+    "wK": "&#9812;",
+    "wQ": "&#9813;",
+    "wR": "&#9814;",
+    "wB": "&#9815;",
+    "wN": "&#9816;",
+    "wP": "&#9817;",
+    "bK": "&#9818;",
+    "bQ": "&#9819;",
+    "bR": "&#9820;",
+    "bB": "&#9821;",
+    "bN": "&#9822;",
+    "bP": "&#9823;",
 }
 
-function change_tag(n){
-	var panels = $("main").find(".examples-body-9af4d");
-	panels.each(function(){
-		$(this).css("display","none");
-	})
-	console.log("change nav tag" + n.toString());
-	panels.eq(n).css("display","");
+function change_tag(n) {
+    var panels = $("main").find(".examples-body-9af4d");
+    panels.each(function () {
+        $(this).css("display", "none");
+    })
+    //console.log("change nav tag" + n.toString());
+    panels.eq(n).css("display", "");
 }
 
 function init() {
-	//set nav tag
-	var nav_tags = $("#groupContainer-1").find("li");
-	nav_tags.each(function (){
-		var data_id = $(this).data("id");
-		$(this).click(function(){
-			nav_tags.each(function(){$(this).removeClass("active");})
-			$(this).addClass("active");
-			change_tag(data_id);
-		});
-	})
-	//set dafault tag
-	nav_tags.eq(0).trigger("click");
-	
+    //set nav tag
+    var nav_tags = $("#groupContainer-1").find("li");
+    nav_tags.each(function () {
+        var data_id = $(this).data("id");
+        $(this).click(function () {
+            nav_tags.each(function () {
+                $(this).removeClass("active");
+            })
+            $(this).addClass("active");
+            change_tag(data_id);
+        });
+    })
+    //set dafault tag
+    nav_tags.eq(0).trigger("click");
+
     //init code
     board_count_num = 0;
 
@@ -63,6 +65,7 @@ function init() {
 
     board_count_num++;
 
+    init_menu();
 
     change_page(true, init = true);
     //load_tactic_from_book();
@@ -105,7 +108,7 @@ function create_one_tactic(descriptions, FEN, solution) {
     return new_board;
 }
 
-function load_tactic_from_book(page = 0) {
+function load_tactic_from_book(page = 0, my_book = book) {
     var main_container = $('#realBodyContainer');
 
     //change page 
@@ -120,10 +123,10 @@ function load_tactic_from_book(page = 0) {
         var row_container = $("<div></div>").addClass("container-4e1ee");
         main_container.append(row_container);
         for (var j = 0; j < 3; j++) {
-            if (9 * page + 3 * i + j >= book.length) {
+            if (9 * page + 3 * i + j >= my_book.length) {
                 break;
             }
-            var book_item = book[9 * page + 3 * i + j];
+            var book_item = my_book[9 * page + 3 * i + j];
 
             //console.log("tacticblock_" + board_count_num.toString());
 
@@ -249,30 +252,30 @@ function make_hover_card(block_id, book_item, FEN = "") {
 }
 
 //change page for loading tactics
-function change_page(next_page = true, init = false, page = 0) {
+function change_page(next_page = true, init = false, page = 0, my_book = book) {
     //change page
     var page_id = parseInt($("#pageId").text());
     if (next_page)
         page_id++;
     else
         page_id--;
-	
-	var max_page = Math.ceil(book.length / 9)
 
+    var max_page = Math.ceil(my_book.length / 9)
+	console.log("max_page " + max_page.toString());
+	
     if (init) {
         page_id = 1;
-		make_pagination(max_page);
+        make_pagination(max_page);
+    } else if (page > 0) {
+        page_id = page;
     }
-	else if(page > 0){
-		page_id = page;
-	} 
-	
-	//change page
-	set_pagination(page_id, max_page);
+
+    //change page
+    set_pagination(page_id, max_page);
 
     $("#pageId").text(page_id.toString());
 
-    load_tactic_from_book(page_id - 1);
+    load_tactic_from_book(page_id - 1, my_book);
 
     /*//disable previous page
     var previous_page_li = $("#previousPageLi");
@@ -294,41 +297,40 @@ function change_page(next_page = true, init = false, page = 0) {
 }
 
 //parse solution string into chess code
-function solution_string2chess_code(solution){
-	//solution 1. Bxh7+ Kxh7 2. Ne4 +- (2. Ne4 Be7 3. Nf6+ gxf6
-	var new_solution = ""
-	var color = "w" // or "b"
-	for(var i = 0; i < solution.length; i++){
-		var c = solution.charAt(i);
-		// it is a number
-		if (c >= '0' && c <= '9') {
-			if (i < solution.length - 1){
-				if (solution.charAt(i + 1) == "."){
-					color = "w";
-					if (i < solution.length - 2){
-						if (solution.charAt(i + 2) == "."){
-							color = "b";
-						}
-					}
-				}
-			}
-			new_solution += c;
-		}
-		//is char
-		else if(c >= "A" && c <= "Z"){
-			var piece = color + c;
-			var chess_code = letter2chess[piece];
-			new_solution += chess_code
-			if (color == "w"){
-				color = "b";
-			}
-		}
-		else{
-			new_solution += c;
-		}
-	}
-	
-	return new_solution;
+function solution_string2chess_code(solution) {
+    //solution 1. Bxh7+ Kxh7 2. Ne4 +- (2. Ne4 Be7 3. Nf6+ gxf6
+    var new_solution = ""
+    var color = "w" // or "b"
+    for (var i = 0; i < solution.length; i++) {
+        var c = solution.charAt(i);
+        // it is a number
+        if (c >= '0' && c <= '9') {
+            if (i < solution.length - 1) {
+                if (solution.charAt(i + 1) == ".") {
+                    color = "w";
+                    if (i < solution.length - 2) {
+                        if (solution.charAt(i + 2) == ".") {
+                            color = "b";
+                        }
+                    }
+                }
+            }
+            new_solution += c;
+        }
+        //is char
+        else if (c >= "A" && c <= "Z") {
+            var piece = color + c;
+            var chess_code = letter2chess[piece];
+            new_solution += chess_code
+            if (color == "w") {
+                color = "b";
+            }
+        } else {
+            new_solution += c;
+        }
+    }
+
+    return new_solution;
 }
 
 
@@ -374,16 +376,16 @@ function set_pagination(page, max_page) {
     //
     for (var i = 2; i < ul_children.length - 2; i++) {
         //console.log(ul_children);
-		var child_i = ul_children.eq(i);
+        var child_i = ul_children.eq(i);
         if (page - i == 3 || i - page == 3) {
-			child_i.css("display", "");
+            child_i.css("display", "");
             child_i.find("a").text("...");
             child_i.addClass("disabled");
 
         } else if (page - i > 3 || i - page > 3) {
             child_i.css("display", "none");
         } else {
-			child_i.css("display", "");
+            child_i.css("display", "");
             child_i.find("a").text(i.toString());
             child_i.removeClass("disabled");
         }
@@ -398,5 +400,53 @@ function set_pagination(page, max_page) {
             ul_children.eq(page).find("a").addClass("bg-page");
         }
     }
+}
 
+//set menu selection button
+function init_menu() {
+    console.log("init menu");
+    //set piece 
+    var drop_menu_button1 = $("#dropdownMenu1");
+    var drop_menu1 = drop_menu_button1.next();
+
+    var piece_note = drop_menu_button1.data("id");
+
+    var piece_book = book.filter(book_item => book_item["piece"] == piece_note);
+    var own_notes = [];
+    for (var i = 0; i < piece_book.length; i++) {
+        book_item = piece_book[i];
+        if (!own_notes.includes(book_item["part"])) {
+            own_notes.push(book_item["part"]);
+        }
+    }
+
+    //set note
+    var drop_menu_button2 = $("#dropdownMenu2");
+    var drop_menu2 = drop_menu_button2.next();
+
+    //console.log(drop_menu2);
+    var button_children = drop_menu2.children();
+    //console.log(button_children.length);
+    for (var i = 0; i < button_children.length; i++) {
+        var button_child = button_children.eq(i);
+        var button_child_text = button_child.text();
+        if (own_notes.includes(button_child_text)) {
+            button_child.css("display", "");
+        } else {
+            button_child.css("display", "none");
+        }
+        button_child.click(function () {
+            drop_menu_button2.data("id", $(this).data("id"));
+            drop_menu_button2.text(" " + $(this).text() + " ");
+			change_book_from_menu_button();
+        })
+    }
+}
+
+//change book from menu button 
+function change_book_from_menu_button() {
+	var piece = $("#dropdownMenu1").data("id");
+	var note = $("#dropdownMenu2").data("id");
+	var filter_book = book.filter(book_item => book_item["piece"] == piece && book_item["part"] == note);
+	change_page(next_page = true, init = true, page = 0, my_book = filter_book);
 }

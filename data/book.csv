@@ -895,3 +895,44 @@ Qg4+ = *",
 Ke7 7. Bf6+! Qxf6 8. Qe8#) (1... Ra7 2. Qd4! Rg7 3. Qd8! Qxd8 4. Rxd8 bxc4 (4...
 Rc7 5. Bxb5 +-) 5. Bxg7 Kxg7 6. Rxc8 +-) (1... b4 2. axb4 Ra7 3. Qd4 Rg7 4. Qf6
 Qe7 5. Rd8) 2. Qc7 +- *",
+505,LASKER,BAUER,Amsterdam,1889,III,g,1.?,1-0,B,D,r4rk1/1b2bppp/ppq1p3/2ppB2n/5P2/1P1BP3/P1PPQ1PP/R4RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""r4rk1/1b2bppp/ppq1p3/2ppB2n/5P2/1P1BP3/P1PPQ1PP/R4RK1 w - - 0 1""]
+
+1. Bxh7+ (1. Qxh5 f5!) 1... Kxh7 2. Qxh5+ Kg8 3. Bxg7! Kxg7 (3... f6 4. Rf3! Qe8
+5. Qh8+ Kf7 6. Qh7 +-) (3... f5 4. Rf3 Kxg7 5. Rg3+ Bg5 6. Rxg5+ Kf6 7. Qh4!!
+Kf7 8. Qh7+ Ke8 9. Rg7 Rb8 10. Rc7 Qd6 11. Rxb7 +-) 4. Qg4+ Kh7 5. Rf3 e5 6.
+Rh3+ Qh6 7. Rxh6+ Kxh6 8. Qd7 +- 1/2-1/2",
+506,NIMZOWITSCH,TARRASCH,Peterburg,1914,III,g,1...?,0-1,B,D,3r1rk1/p3qp1p/2bb2p1/2p5/3P4/1P6/PBQN1PPP/2R2RK1 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""3r1rk1/p3qp1p/2bb2p1/2p5/3P4/1P6/PBQN1PPP/2R2RK1 b - - 0 1""]
+
+1... Bxh2+! (1... Bxg2! 2. Kxg2 (2. dxc5 Qg5 -+) 2... Qg5+ 3. Kf3 (3. Kh3 Qh5+
+-+) (3. Kh1 Qf4 -+) 3... Rfe8! 4. Rg1 Qf4+ 5. Kg2 Re2 -+) 2. Kxh2 Qh4+ 3. Kg1
+Bxg2 4. f3 (4. Kxg2 Qg4+ 5. Kh2 Rd5) 4... Rfe8! (4... Qg3? 5. Ne4) 5. Ne4 (5.
+dxc5 Re2) 5... Qh1+ 6. Kf2 Bxf1 *",
+507,R.SINGH,SAHU,India,1994,III,i,1...?,0-1,B,D,r2q1rk1/pp3ppp/1bpN1n2/4n3/1PP1P1b1/P1N2PP1/6BP/R1BQK2R b KQ - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""r2q1rk1/pp3ppp/1bpN1n2/4n3/1PP1P1b1/P1N2PP1/6BP/R1BQK2R b KQ - 0 1""]
+
+1... Bxf3! 2. Bxf3 Bd4!! (2... Nxf3+?? 3. Qxf3 Qxd6 4. c5 =) 3. Bb2 (3. Qxd4?
+Nxf3+ -+) (3. Nxb7 Bxc3+ -+) 3... Qxd6 4. Be2 Rad8 5. Qc2 (5. Rf1 Nfg4 (5...
+Qe6!? -+) 6. Bxg4 Nxg4? = (6... Qh6)) 5... Nfg4! 6. Bxg4 Nxg4 *",
