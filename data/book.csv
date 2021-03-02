@@ -1143,5 +1143,130 @@ Bxf6 7. Bg8!! Rxg8 (7... Rf7 8. Bxf7 Bg7 9. Qh5+) 8. Qh6# 1-0",
 
 1. Nxe6! fxe6 (1... Nxe5 2. Nxg7+ Bxg7 3. Qxg7 Ng6 4. h5 +-) 2. Qg6+ Ke7 3.
 Nxd5+! exd5 4. Bb4+ Nc5 5. Bxc5+ Kd7 6. e6+ Kc7 7. Bb6+! Kxb6 8. e7+ +- 1/2-1/2",
-524,KRASON,SZYPULSKI,Warszawa,1984,III,e/h,1.?,1-0,B,G,,,
-525,ZAFIROVSKI,D.STANKOVIC,Nis,1992,IV,g/c,1.?,1-0,B,G,,,
+524,KRASON,SZYPULSKI,Warszawa,1984,III,e/h,1.?,1-0,B,G,1k1r1b1r/pp1nqp1p/5np1/1B2Nb2/3Pp3/2N5/PPQ3PP/R1B2RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""1k1r1b1r/pp1nqp1p/5np1/1B2Nb2/3Pp3/2N5/PPQ3PP/R1B2RK1 w - - 0 1""]
+
+1. Nc6+!! bxc6 2. Bf4+ Kb7 3. Bxc6+ Kxc6 4. Nd5+ Kxd5 5. Rac1 Nc5 6. Qc4+ Kc6 7.
+Qa6+ Kd7 8. Qb5+ Ke6 9. Rxc5 Ne8 10. Re5+ Kf6 11. Rxe7 Kxe7 12. Qe5+ +- 1/2-1/2",
+525,ZAFIROVSKI,D.STANKOVIC,Nis,1992,IV,g/c,1.?,1-0,B,G,q2r1rk1/1b2bppp/pn2p3/1p2P3/1n1NN3/6B1/PP2QPPP/1BRR2K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""q2r1rk1/1b2bppp/pn2p3/1p2P3/1n1NN3/6B1/PP2QPPP/1BRR2K1 w - - 0 1""]
+
+1. Nf6+! gxf6 2. Bxh7+ Kxh7 3. Qh5+ Kg7 4. exf6+ Bxf6 5. Nxe6+ Kg8 6. Qg4+ Kh8
+7. Nxd8 Rxd8 8. Bh4! +- 1/2-1/2",
+526,FYNN,NEDGENT,New-York,1900,I,i,1.?,1-0,R,A,r4bkr/pppq2pp/2n1R3/6N1/2pp2P1/5Q2/PP3P1P/R1B3K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r4bkr/pppq2pp/2n1R3/6N1/2pp2P1/5Q2/PP3P1P/R1B3K1 w - - 0 1""]
+
+1. Re7!! Qxe7 (1... Bxe7 2. Qf7#) (1... Nxe7 2. Qf7#) (1... Ne5 2. Rxd7 Nxf3+ 3.
+Nxf3 +-) 2. Qd5+ Qe6 3. Qxe6# 1-0",
+527,C.TORRE,SAMISCH,Moskva,1924,I,d,1.?,1-0,R,A,2rn1r2/pbq1bpk1/1p1pp2p/3n2pQ/2NP3N/2PB2B1/PP3PPP/R3R1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""2rn1r2/pbq1bpk1/1p1pp2p/3n2pQ/2NP3N/2PB2B1/PP3PPP/R3R1K1 w - - 0 1""]
+
+1. Rxe6! Nxe6 (1... fxe6 2. Qg6+ Kh8 3. Qh7#) 2. Nf5+ Kg8 (2... Kf6 3. Qxh6#) 3.
+Nxh6+ +- 1/2-1/2",
+528,CAPABLANCA,STEINER,Los-Angeles,1933,I,g,1.?,1-0,R,A,r2q2r1/pp2n1kp/2p1pp2/4p2Q/4P2N/2PP4/P1P3PP/R4RK1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r2q2r1/pp2n1kp/2p1pp2/4p2Q/4P2N/2PP4/P1P3PP/R4RK1 w - - 0 1""]
+
+1. Rxf6! Kxf6 2. Rf1+ Nf5 3. Nxf5 exf5 4. Rxf5+ Ke7 5. Qf7+ Kd6 6. Rf6+ Kc5
+(6... Qxf6 7. Qxf6+ Kd7 8. Qf5+! +-) 7. Qxb7 Qb6 8. Rxc6+! Qxc6 9. Qb4# 1-0",
+529,N.N,FINE,USA,1937,I,h,1...?,0-1,R,A,2kr1b1r/pp3ppp/2p5/2n5/P1N2Bb1/2N1PnPP/1P2KP2/R4B1R b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""0-1""]
+[SetUp ""1""]
+[FEN ""2kr1b1r/pp3ppp/2p5/2n5/P1N2Bb1/2N1PnPP/1P2KP2/R4B1R b - - 0 1""]
+
+1... Rd2+! 2. Nxd2 Nd4+ 3. Ke1 Nc2# 0-1",
+530,SOKOL'SKIJ,SAJGIN,SSSR,1950,I,c,1.?,1-0,R,A,1r1qr1k1/p1pb2b1/n3p1Qp/Np1pP3/n2P2p1/2PBR3/PP3PPP/R1B3K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""1r1qr1k1/p1pb2b1/n3p1Qp/Np1pP3/n2P2p1/2PBR3/PP3PPP/R1B3K1 w - - 0 1""]
+
+1. Rf3! gxf3 2. Bxh6 Qe7 3. Qh7+ Kf8 4. Qh8+ +- 1/2-1/2",
+531,GLIGORIC,TOLUS,Jugoslavija,1957,I,g,1.?,1-0,R,A,4rk2/1p3p2/p1b1p1p1/4P1Q1/3r1R2/3B4/Pq3PP1/3R2K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""4rk2/1p3p2/p1b1p1p1/4P1Q1/3r1R2/3B4/Pq3PP1/3R2K1 w - - 0 1""]
+
+1. Rxf7+! Kxf7 2. Bxg6+ Kg8 3. Bh5+! Kh7 4. Qg6+ Kh8 5. Qf6+ Kh7 6. Bg6+ Kh6 7.
+Bf5+ (7. Bf7+ Kh7 8. Qg6+ Kh8 9. Qh6#) 7... Kh5 8. Qg6+ Kh4 9. g3# 1-0",
+532,IVKOV,PORTISCH,Bled,1961,I,c,1.?,1-0,R,A,r3b3/pNR5/k7/3p1n2/P2p1B2/2P5/2P2PrP/1R1K4 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r3b3/pNR5/k7/3p1n2/P2p1B2/2P5/2P2PrP/1R1K4 w - - 0 1""]
+
+1. Rc6+ Bxc6 2. Nc5+ Ka5 3. Bc7# 1-0",
+533,BAJRAMOV,GIK,SSSR,1963,I,d,1...?,0-1,R,A,2r3k1/pp3ppp/1q3n2/3Pp3/3nP3/8/1P3QPP/3B1RKN b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""0-1""]
+[SetUp ""1""]
+[FEN ""2r3k1/pp3ppp/1q3n2/3Pp3/3nP3/8/1P3QPP/3B1RKN b - - 0 1""]
+
+1... Rc2! 2. Bxc2 (2. Qe3 Ne2+ 3. Kf2 Ng4+ -+) 2... Ne2# 0-1",
+534,MEDLER,UHLMANN,DDR,1963,I,h,1...?,0-1,R,A,6k1/pbR2p1p/1p1p2pQ/8/6qP/6N1/P4PPK/4r3 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""0-1""]
+[SetUp ""1""]
+[FEN ""6k1/pbR2p1p/1p1p2pQ/8/6qP/6N1/P4PPK/4r3 b - - 0 1""]
+
+1... Rh1+! 2. Kxh1 Qh3+ 3. Kg1 Qxg2# 0-1",
