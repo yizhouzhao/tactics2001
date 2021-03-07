@@ -397,3 +397,8 @@ div.dropdown button.dropdown-item img{
 .dropdown-menu {
     min-width: 0px !important;
 }
+
+/*--------------------instruction line------------------------*/
+div.instruction-line > p{
+	font-size: 12px;
+}
