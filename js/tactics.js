@@ -371,7 +371,7 @@ function make_pagination(max_page, my_book = book) {
 }
 
 //set pagination
-function set_pagination(page, max_page, my_book=book) {
+function set_pagination(page, max_page, my_book = book) {
     var page_ul = $("#pageUl");
     var previous_page_li = $("#pageUl li:first-child");
     var next_page_li = $("#pageUl li:last-child");
@@ -383,7 +383,7 @@ function set_pagination(page, max_page, my_book=book) {
     } else {
         if (previous_page_li.hasClass("disabled"))
             previous_page_li.removeClass("disabled");
-		previous_page_li.unbind("click");
+        previous_page_li.unbind("click");
         previous_page_li.click(function () {
             change_page(false, false, 0, my_book);
         })
@@ -395,8 +395,8 @@ function set_pagination(page, max_page, my_book=book) {
     } else {
         if (next_page_li.hasClass("disabled"))
             next_page_li.removeClass("disabled");
-		next_page_li.unbind("click");
-		next_page_li.click(function () {
+        next_page_li.unbind("click");
+        next_page_li.click(function () {
             change_page(true, false, 0, my_book);
         })
     }
@@ -437,23 +437,23 @@ function init_menu() {
     //set piece 
     var drop_menu_button1 = $("#dropdownMenu1");
     var drop_menu1 = drop_menu_button1.next();
-	
-	var menu1_button_children = drop_menu1.children();
-	//console.log("init menu menu1_button_children " + menu1_button_children.length.toString());
-	for (var i = 0; i < menu1_button_children.length; i++){
-		var button_child = menu1_button_children.eq(i);
-		//var button_data_id = button_child.data("id");
-		button_child.click(function () {
+
+    var menu1_button_children = drop_menu1.children();
+    //console.log("init menu menu1_button_children " + menu1_button_children.length.toString());
+    for (var i = 0; i < menu1_button_children.length; i++) {
+        var button_child = menu1_button_children.eq(i);
+        //var button_data_id = button_child.data("id");
+        button_child.click(function () {
             //change id
-			drop_menu_button1.data("id", $(this).data("id"));
-			//change image src
-			var image_src = $(this).find(">:first-child").attr("src");
+            drop_menu_button1.data("id", $(this).data("id"));
+            //change image src
+            var image_src = $(this).find(">:first-child").attr("src");
             console.log(drop_menu_button1.data("id") + " " + image_src);
-			drop_menu_button1.find(">:first-child").attr("src", image_src);
-			
+            drop_menu_button1.find(">:first-child").attr("src", image_src);
+
             change_book_from_menu_button();
         })
-	}
+    }
 
     var piece_note = drop_menu_button1.data("id");
 
@@ -476,17 +476,51 @@ function init_menu() {
     for (var i = 0; i < button_children.length; i++) {
         var button_child = button_children.eq(i);
         var button_child_text = button_child.text();
-		//check if book has the piece
+        //check if book has the piece
         //if (own_notes.includes(button_child_text)) {
         //    button_child.css("display", "");
         //} else {
         //    button_child.css("display", "none");
         //}
-		//button_child.unbind("click");
+        //button_child.unbind("click");
         button_child.click(function () {
             drop_menu_button2.data("id", $(this).data("id"));
             //console.log(drop_menu_button2.data("id"));
             drop_menu_button2.text(" " + $(this).text() + " ");
+            change_book_from_menu_button();
+        })
+    }
+
+    //set theme
+    var drop_menu_button3 = $("#dropdownMenu3");
+    var drop_menu3 = drop_menu_button3.next();
+
+    var menu3_button_children = drop_menu3.children();
+    for (var i = 0; i < menu3_button_children.length; i++) {
+        var button_child = menu3_button_children.eq(i);
+        var button_child_text = menu3_button_children.text();
+        //button_child.unbind("click");
+        button_child.click(function () {
+            drop_menu_button3.data("id", $(this).data("id"));
+            //console.log(drop_menu_button2.data("id"));
+            drop_menu_button3.text(" " + $(this).text() + " ");
+            change_book_from_menu_button();
+        })
+    }
+
+    //set combination type
+    var drop_menu_button4 = $("#dropdownMenu4");
+    var drop_menu4 = drop_menu_button4.next();
+
+    var menu4_button_children = drop_menu4.children();
+    for (var i = 0; i < menu4_button_children.length; i++) {
+        var button_child = menu4_button_children.eq(i);
+        var button_child_text = menu4_button_children.text();
+        //button_child.unbind("click");
+        button_child.click(function () {
+            drop_menu_button4.data("id", $(this).data("id"));
+            //console.log(drop_menu_button2.data("id"));
+            drop_menu_button4.text(" " + $(this).text() + " ");
             change_book_from_menu_button();
         })
     }
@@ -496,20 +530,29 @@ function init_menu() {
 function change_book_from_menu_button() {
     var piece = $("#dropdownMenu1").data("id");
     var note = $("#dropdownMenu2").data("id");
-	
-	if (piece == "0"){
-		 var filter_book = book;
-	}
-	else{
-		var filter_book = book.filter(book_item => book_item["piece"] == piece);
-	}
-	
-	if (note == "0"){
-		
-	}
-	else{
-		filter_book = filter_book.filter(book_item => book_item["part"] == note);
-	}
+    var theme = $("#dropdownMenu3").data("id");
+    var combination = $("#dropdownMenu4").data("id");
+
+
+    if (piece == "0") {
+        var filter_book = book;
+    } else {
+        var filter_book = book.filter(book_item => book_item["piece"] == piece);
+    }
+
+    if (note == "0") {} else {
+        filter_book = filter_book.filter(book_item => book_item["part"] == note);
+    }
+
+    if (theme == "0") {} else {
+        filter_book = filter_book.filter(book_item => book_item["class"] == theme);
+    }
+
+    if (combination == "0") {} else {
+        filter_book = filter_book.filter(book_item => book_item["strategy"] == combination);
+    }
+
+
     //var filter_book = book.filter(book_item => book_item["piece"] == piece && book_item["part"] == note);
     change_page(next_page = true, init = true, page = 0, my_book = filter_book);
 }
