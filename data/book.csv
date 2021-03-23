@@ -1971,8 +1971,75 @@ Kh8 5. Nxf7#) 5. Nxh7# 1-0",
 
 1. Rxd4 exd4 2. Bf6+ Kg8 3. Qh6 Qg6 (3... Re7 4. Rh5! +-) 4. Qxg6+ hxg6 5. Ng5!
 +- 1/2-1/2",
-596,V.MILOV,DE-FIRMIAN,Biel,1994-61/570,I,g,1.?,1-0,R,A,,,
-597,L.BO-HANSEN,ADAMS,Wijk-aan-Zee,1995-62/27,I,g,1...?,0-1,R,A,,,
-598,DOCEV ,STOHL,Pardubice,1994,I,g,1.?,1-0,R,A,,,
-599,KUIJPERS,POMAR-SALAMANCA,Enschede,1964,I,h,1.?,1-0,R,A,,,
-600,LARSEN,SPASSKY,World-SSSR,1970 _9/25,I,e,1.?,1-0,R,A,,,
+596,V.MILOV,DE-FIRMIAN,Biel,1994-61/570,I,g,1.?,1-0,R,A,3r1nr1/2kq4/1p1p1p1p/2pPp1p1/2P1P1PP/2P1BP2/3K4/1R1Q3R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""3r1nr1/2kq4/1p1p1p1p/2pPp1p1/2P1P1PP/2P1BP2/3K4/1R1Q3R w - - 0 1""]
+
+1. Rxb6 Rc8 (1... Kxb6 2. Qb3+? (2. Qa1! Kc7 (2... Kb7 3. Rb1+ Kc7 4. Qa5+) 3.
+Rb1) 2... Kc7 3. Rb1 (3. Ra1 Rb8) 3... Qc8 4. Qb5 Qa8 -+) 2. Qa1 Kd8 3. Qa6 Ke7
+4. hxg5 hxg5 5. Rb7 (5. Rxd6 Qxd6 6. Qxc8 +-) 5... Rc7 6. Rhb1 +- *",
+597,L.BO-HANSEN,ADAMS,Wijk-aan-Zee,1995-62/27,I,g,1...?,0-1,R,A,4r1k1/b4pp1/1pp4p/n2p1q2/Q1PPr2P/P1B3PN/5P1K/2R2R2 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""4r1k1/b4pp1/1pp4p/n2p1q2/Q1PPr2P/P1B3PN/5P1K/2R2R2 b - - 0 1""]
+
+1... Rxh4! 2. gxh4 Bb8+ 3. f4 (3. Kg2 Qg4+ -+) 3... Re3! (3... Re2+ 4. Rf2) 4.
+Ng1 Bxf4+ -+ *",
+598,DOCEV ,STOHL,Pardubice,1994,I,g,1.?,1-0,R,A,2rr4/5p1k/p3b1p1/1p2P1Qp/3BP2R/2P1K3/2q4P/3R4 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""2rr4/5p1k/p3b1p1/1p2P1Qp/3BP2R/2P1K3/2q4P/3R4 w - - 0 1""]
+
+1. Rxh5+! Kg8 (1... gxh5 2. Qxh5+ Kg8 3. Qg5+ Kh7 (3... Kf8 4. Bc5+ +-) 4. Qh4+
+Kg8 5. Rg1+) 2. Qh6 gxh5 (2... Rxc3+ 3. Bxc3 Qxc3+ 4. Kf4 +-) 3. Qg5+ Kh7 4.
+Qxh5+ Kg7 5. Qg5+ Kh7 6. Qh4+ Kg7 7. Rg1+ Kf8 8. Bc5+! 1/2-1/2",
+599,KUIJPERS,POMAR-SALAMANCA,Enschede,1964,I,h,1.?,1-0,R,A,r2qr1n1/p4pk1/1p1p2p1/4p3/4PQ2/1PN2P2/1PP3P1/2KR3R w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""r2qr1n1/p4pk1/1p1p2p1/4p3/4PQ2/1PN2P2/1PP3P1/2KR3R w - - 0 1""]
+
+1. Rh7+ Kxh7 2. Qxf7+ Kh6 3. Rh1+ Kg5 4. Qh7! (4. Nd5 Nf6) 4... Kf6 5. Nd5+ Ke6
+6. Nc7+ Kf6 7. Qh8+ Kg5 (7... Kf7 8. Rh7+ +-) 8. Qh4# 1-0",
+600,LARSEN,SPASSKY,World-SSSR,1970 _9/25,I,e,1.?,1-0,R,A,2kr3r/ppp1qpp1/2p5/2b2b2/2P1pPP1/1P2P1p1/PBQPB3/RN2K1R1 b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""2kr3r/ppp1qpp1/2p5/2b2b2/2P1pPP1/1P2P1p1/PBQPB3/RN2K1R1 b - - 0 1""]
+
+1... Rh1!! 2. Rxh1 (2. Kf1 Qh4 -+) 2... g2 3. Rf1 (3. Rg1 Qh4+ 4. Kd1 Qh1 5. Qc3
+Qxg1+ 6. Kc2 Qf2 7. gxf5 Qxe2 8. Na3 Bb4 -+) 3... Qh4+ 4. Kd1 gxf1=Q+ 5. Bxf1
+Bxg4+ -+ *",
+610,MAGEM,BADALS-STRIKOVIC,Zaragoza,1994-60/293,I,e,1...?,0-1,R,A,,,
+611,PRZEPIORKA,E.COHN,Berlin,907,I,c,1...?,0-1,R,A,,,
+612,FISHER,BENKO,USA(ch),1963,I,i,1.?,1-0,R,A,,,
+613,FORINTOS,MINIC,Pula,1971-12/104,I,c,1...?,0-1,R,A,,,
+614,ROBATSCH,HUG,Biel,1977,I,g,1...?,0-1,R,A,,,
+615,LIM,TISDALL,Hastings,1977/78,I,i,1...?,0-1,R,A,,,
+616,P.NIKOLIC,HARTMANN,BRD,1979,I,d,1.?,1-0,R,A,,,
+617,KUPREJCIK,RADULOV,Plovdiv,1980-30/74,I,i,1.?,1-0,R,A,,,
+618,VARJOMA,LUNDQUIST,Sverige,1980,I,d,1...?,0-1,R,A,,,
