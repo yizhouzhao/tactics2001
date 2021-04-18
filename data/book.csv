@@ -2108,6 +2108,47 @@ Rg2+ 8. Kxe1 Qxe2# 0-1",
 [FEN ""6k1/pp4pp/2qr1p2/2p5/2P1Pnb1/P1Q2P2/1B3P1P/R4B1K b - - 0 1""]
 
 1... Rd3 2. Bxd3 Bxf3+ 3. Kg1 Qd7 4. Kf1 (4. e5 Qh3) 4... Nxd3 *",
-616,P.NIKOLIC,HARTMANN,BRD,1979,I,d,1.?,1-0,R,A,,,
-617,KUPREJCIK,RADULOV,Plovdiv,1980-30/74,I,i,1.?,1-0,R,A,,,
-618,VARJOMA,LUNDQUIST,Sverige,1980,I,d,1...?,0-1,R,A,,,
+616,P.NIKOLIC,HARTMANN,BRD,1979,I,d,1.?,1-0,R,A,6k1/5p1p/b2qpPpP/3p4/2n2Q2/1pP2NPB/rP3P2/4R1K1 w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1/2-1/2""]
+[SetUp ""1""]
+[FEN ""6k1/5p1p/b2qpPpP/3p4/2n2Q2/1pP2NPB/rP3P2/4R1K1 w - - 0 1""]
+
+1. Rxe6 Qd8 (1... fxe6 2. f7+ Kf8 3. Qf6 +-) 2. Qc7!! Qf8 3. Re7 +- 1/2-1/2",
+617,KUPREJCIK,RADULOV,Plovdiv,1980-30/74,I,i,1.?,1-0,R,A,3r1r1k/1pqb1p1p/p3pp1Q/P7/4N3/8/1PP1n1PP/R4R1K w - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""1-0""]
+[SetUp ""1""]
+[FEN ""3r1r1k/1pqb1p1p/p3pp1Q/P7/4N3/8/1PP1n1PP/R4R1K w - - 0 1""]
+
+1. Rf5!! (1. Nxf6 Qxc2 2. Nxd7 +-) 1... Rg8 (1... exf5 2. Nxf6 +-) 2. Nxf6 Rg7
+3. Rg5 Rdg8 4. Qxh7+ Rxh7 5. Rxg8# 1-0",
+618,VARJOMA,LUNDQUIST,Sverige,1980,I,d,1...?,0-1,R,A,6rk/7p/3p4/4b3/p1PB1Pq1/Pr6/3Q3P/3R1R1K b - - 0 1,"[Event ""?""]
+[Site ""?""]
+[Date ""????.??.??""]
+[Round ""?""]
+[White ""?""]
+[Black ""?""]
+[Result ""*""]
+[SetUp ""1""]
+[FEN ""6rk/7p/3p4/4b3/p1PB1Pq1/Pr6/3Q3P/3R1R1K b - - 0 1""]
+
+1... Rd3 2. Bxe5+ (2. fxe5 Qe4+ -+) (2. Qc2 Bxd4! 3. Rxd3 Qg1+ 4. Rxg1 Rxg1#)
+2... dxe5 3. Qb2 (3. Qc2 Rxd1 -+) 3... Qf3+! -+ (3... Qxf4? 4. Qe2 =) *",
+619,GOL'DIN,EFIMOV,SSSR,1982,I,d,1.?,1-0,R,A,,,
+620,THIPSAY,MURUGAN,India(ch),1988-45/273,I,g,1...?,0-1,R,A,,,
+621,FETTE,A.MESZAROS,Eger,1989,I,g,1.?,1-0,R,A,,,
+622,E.MEYER,GELMAN,USA,1991,I,e,1.?,1-0,R,A,,,
+623,GUSEINOV,S.GULIEV,Baku,1991,I,e,1...?,0-1,R,A,,,
+624,ELIZART-CARDENAS,BARREDO,Cuba,1992,I,d,1.?,1-0,R,A,,,
+625,KARPOV,SIROV,Beil,1992-55/436,I,d,1.?,1-0,R,A,,,
+626,D.LIU,SERPER,Jakarta,1994,I,d,1...?,0-1,R,A,,,
+627,VESCOVI,GSCHWENDTNER,Groningen,1994,I,g,1.?,1-0,R,A,,,
